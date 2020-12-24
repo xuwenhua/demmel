@@ -35,7 +35,7 @@
             Thanks to synergy effects, we can coordinate electronics and metal
             components within the Demmel Group.
           </p>
-          <img src="../assets/banner/banner2.jpg" alt="">
+          <img src="../assets/banner/banner2.jpg" alt="" />
         </div>
       </div>
     </div>
@@ -46,15 +46,16 @@
 </template>
 
 <script>
-import NavBar from '@/components/NavBar'
+/* eslint-disable */
+import NavBar from "@/components/NavBar";
 
 export default {
-  name: 'Solutions',
+  name: "Solutions",
   components: { NavBar },
   data() {
-    return {}
+    return {};
   },
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

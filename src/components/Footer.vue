@@ -7,7 +7,7 @@
       </div>
       <div class="half">
         <div class="item">
-          <img src="../assets/email.png" alt="">
+          <img src="../assets/email.png" alt="" />
           marketing@demmel.cn
         </div>
         <div class="item">&copy;Demmel CN 2020</div>
@@ -17,44 +17,45 @@
 </template>
 
 <script>
+/* eslint-disable */
 export default {
-  name: 'Footer',
+  name: "Footer",
   methods: {},
-}
+};
 </script>
 <style lang="scss" scoped>
-  .footer {
-    background-color: #4B4B4B;
-    color: #fff;
-    font-size: 14px;
-    height: 60px;
-    line-height: 60px;
-    .wrapper {
-      max-width: 1290px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      .half {
-        flex: 1;
-        overflow: hidden;
-        &:first-child {
-          .item {
-            float: left;
-            margin-left: 60px;
-          }
-        }
+.footer {
+  background-color: #4b4b4b;
+  color: #fff;
+  font-size: 14px;
+  height: 60px;
+  line-height: 60px;
+  .wrapper {
+    max-width: 1290px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    .half {
+      flex: 1;
+      overflow: hidden;
+      &:first-child {
         .item {
-          display: flex;
-          align-items: center;
-          margin-right: 60px;
-          float: right;
-          img {
-            width: 19px;
-            height: 14px;
-            margin-right: 4px;
-          }
+          float: left;
+          margin-left: 60px;
+        }
+      }
+      .item {
+        display: flex;
+        align-items: center;
+        margin-right: 60px;
+        float: right;
+        img {
+          width: 19px;
+          height: 14px;
+          margin-right: 4px;
         }
       }
     }
   }
+}
 </style>

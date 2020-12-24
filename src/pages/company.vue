@@ -22,26 +22,32 @@
         <div class="sub-wrapper">
           <div class="sub-info">
             <p>
-              DMCC is committed to develop, manufacture and supply high-end metal
-              parts and assemblies to the selected industrial customers in
+              DMCC is committed to develop, manufacture and supply high-end
+              metal parts and assemblies to the selected industrial customers in
               mechanics, electronics, and automotive industry.
             </p>
             <p>
-              With many years of experiences in metal work and close co-operation
-              with the world famous companies, DMCC becomes a reliable world–wide
-              supplier with product development, manufacturing, sales and service.
+              With many years of experiences in metal work and close
+              co-operation with the world famous companies, DMCC becomes a
+              reliable world–wide supplier with product development,
+              manufacturing, sales and service.
             </p>
             <ul>
               <li>First founded as Matino in 2001</li>
-              <li>Land -24,932 m2;  factory building -14,261 m2</li>
+              <li>Land -24,932 m2; factory building -14,261 m2</li>
               <li>Demmel took over Matino-Nanjing since Dec. 1, 2008</li>
-              <li>Sales in 2018:  RMB 47mil，target for 2019: RMB 49 mil.</li>
-              <li>Core business: metal parts and assembly production, Employees:75</li>
-              <li>Customer:  Mainly in Europe , North America and China, export over 60%</li>
+              <li>Sales in 2018: RMB 47mil，target for 2019: RMB 49 mil.</li>
+              <li>
+                Core business: metal parts and assembly production, Employees:75
+              </li>
+              <li>
+                Customer: Mainly in Europe , North America and China, export
+                over 60%
+              </li>
             </ul>
           </div>
           <div class="sub-pic">
-            <img src="../assets/dist/company.jpg">
+            <img src="../assets/dist/company.jpg" />
           </div>
         </div>
       </div>
@@ -53,15 +59,16 @@
 </template>
 
 <script>
-import NavBar from '@/components/NavBar'
+/* eslint-disable */
+import NavBar from "@/components/NavBar";
 
 export default {
-  name: 'Solutions',
+  name: "Solutions",
   components: { NavBar },
   data() {
-    return {}
+    return {};
   },
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

@@ -8,20 +8,21 @@
 </template>
 
 <script>
-import Footer from '@/components/Footer'
+/* eslint-disable */
+import Footer from "@/components/Footer";
 
 export default {
-  name: 'App',
+  name: "App",
   components: { Footer },
-}
+};
 </script>
 
 <style>
-@import url('styles/normalize.css');
+@import url("styles/normalize.css");
 html,
 body {
   height: 100%;
-  font-family: 'Fira Sans', sans-serif;
+  font-family: "Fira Sans", sans-serif;
 }
 #app {
   height: 100%;

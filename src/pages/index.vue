@@ -59,16 +59,17 @@
 </template>
 
 <script>
-import NavBar from '@/components/NavBar'
-import Banner from '@/components/Banner'
+/* eslint-disable */
+import NavBar from "@/components/NavBar";
+import Banner from "@/components/Banner";
 
 export default {
-  name: 'Index',
+  name: "Index",
   components: { NavBar, Banner },
   data() {
-    return {}
+    return {};
   },
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
@@ -152,7 +153,7 @@ export default {
             border-top: 20px solid #fff;
             border-left: 153px solid transparent;
             border-right: 153px solid transparent;
-            content: '';
+            content: "";
             display: block;
             position: absolute;
             -webkit-backface-visibility: hidden;

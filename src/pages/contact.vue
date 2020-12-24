@@ -23,7 +23,7 @@
             <p>Tel:+49 8381919</p>
             <p>Fax:+49 8381919</p>
             <p>www.demmel.de</p>
-            <p style="margin-top: 30px; color: #00789e;font-weight:bold;">
+            <p style="margin-top: 30px; color: #00789e; font-weight: bold">
               Demmel Metal Components (Nanjing) Co., Ltd.
             </p>
             <p>
@@ -47,15 +47,16 @@
 </template>
 
 <script>
-import NavBar from '@/components/NavBar'
+/* eslint-disable */
+import NavBar from "@/components/NavBar";
 
 export default {
-  name: 'Solutions',
+  name: "Solutions",
   components: { NavBar },
   data() {
-    return {}
+    return {};
   },
-}
+};
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

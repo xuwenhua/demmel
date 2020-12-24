@@ -24,28 +24,28 @@
 </template>
 
 <script>
-import Swiper from 'swiper'
-import 'swiper/dist/css/swiper.min.css'
+/* eslint-disable */
+import Swiper from "swiper";
+import "swiper/dist/css/swiper.min.css";
 
 export default {
-  name: 'Banner',
+  name: "Banner",
   data() {
     return {
       bannerList: [
         {
-          url: require('../assets/banner/banner1.jpeg'),
-          leftTitle: 'a Car',
-          rightTitle: 'a branding challenge',
+          url: require("../assets/banner/banner1.jpeg"),
+          leftTitle: "a Car",
+          rightTitle: "a branding challenge",
         },
       ],
-    }
+    };
   },
   mounted() {
-    Swiper('.swiper-container', {
-    })
+    Swiper(".swiper-container", {});
   },
   methods: {},
-}
+};
 </script>
 <style lang="scss" scoped>
 .swiper-container {
@@ -57,11 +57,13 @@ export default {
       justify-content: center;
       overflow: hidden;
       &:hover {
-        .left-title, .right-title {
+        .left-title,
+        .right-title {
           display: block;
         }
       }
-      .left-title, .right-title {
+      .left-title,
+      .right-title {
         animation-name: fadeIn;
         animation-duration: 1s;
         width: 310px;
@@ -87,7 +89,7 @@ export default {
           border-bottom: 300px solid transparent;
           top: 0;
           right: -40px;
-          content: '';
+          content: "";
           display: block;
           position: absolute;
           -webkit-backface-visibility: hidden;
@@ -118,7 +120,7 @@ export default {
           border-bottom: 300px solid transparent;
           top: 0;
           left: -40px;
-          content: '';
+          content: "";
           display: block;
           position: absolute;
           -webkit-backface-visibility: hidden;
