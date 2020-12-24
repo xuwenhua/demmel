@@ -1,6 +1,6 @@
 <template>
-  <div class="banner">
-    <div class="swiper-container">
+  <div class="banner" :style="{height: clientHeight}">
+    <div class="swiper-container" :style="{height: clientHeight}">
       <div class="swiper-wrapper">
         <div
           class="swiper-slide"
@@ -39,12 +39,20 @@ export default {
           rightTitle: "a branding challenge",
         },
       ],
+      clientHeight: '',
     };
   },
   mounted() {
     Swiper(".swiper-container", {});
   },
-  methods: {},
+  created() {
+    this.initHeight()
+  },
+  methods: {
+    initHeight() {
+      this.clientHeight = document.documentElement.clientHeight - 100 + 'px'
+    }
+  },
 };
 </script>
 <style lang="scss" scoped>
