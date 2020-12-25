@@ -1,6 +1,6 @@
 <template>
-  <div class="banner" :style="{height: clientHeight}">
-    <div class="swiper-container" :style="{height: clientHeight}">
+  <div class="banner" :style="{ height: clientHeight }">
+    <div class="swiper-container" :style="{ height: clientHeight }">
       <div class="swiper-wrapper">
         <div
           class="swiper-slide"
@@ -25,25 +25,25 @@
 
 <script>
 /* eslint-disable */
-import Swiper from "swiper";
-import "swiper/dist/css/swiper.min.css";
+import Swiper from 'swiper'
+import 'swiper/dist/css/swiper.min.css'
 
 export default {
-  name: "Banner",
+  name: 'Banner',
   data() {
     return {
       bannerList: [
         {
-          url: require("../assets/banner/banner1.jpeg"),
-          leftTitle: "a Car",
-          rightTitle: "a branding challenge",
+          url: require('../assets/banner/banner1.jpeg'),
+          leftTitle: 'a Car',
+          rightTitle: 'a branding challenge',
         },
       ],
       clientHeight: '',
-    };
+    }
   },
   mounted() {
-    Swiper(".swiper-container", {});
+    Swiper('.swiper-container', {})
   },
   created() {
     this.initHeight()
@@ -51,9 +51,9 @@ export default {
   methods: {
     initHeight() {
       this.clientHeight = document.documentElement.clientHeight - 100 + 'px'
-    }
+    },
   },
-};
+}
 </script>
 <style lang="scss" scoped>
 .swiper-container {
@@ -97,7 +97,7 @@ export default {
           border-bottom: 300px solid transparent;
           top: 0;
           right: -40px;
-          content: "";
+          content: '';
           display: block;
           position: absolute;
           -webkit-backface-visibility: hidden;
@@ -128,7 +128,7 @@ export default {
           border-bottom: 300px solid transparent;
           top: 0;
           left: -40px;
-          content: "";
+          content: '';
           display: block;
           position: absolute;
           -webkit-backface-visibility: hidden;

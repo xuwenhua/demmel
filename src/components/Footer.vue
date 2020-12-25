@@ -19,9 +19,9 @@
 <script>
 /* eslint-disable */
 export default {
-  name: "Footer",
+  name: 'Footer',
   methods: {},
-};
+}
 </script>
 <style lang="scss" scoped>
 .footer {

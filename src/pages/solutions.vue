@@ -74,15 +74,15 @@
 
 <script>
 /* eslint-disable */
-import NavBar from "@/components/NavBar";
+import NavBar from '@/components/NavBar'
 
 export default {
-  name: "Solutions",
+  name: 'Solutions',
   components: { NavBar },
   data() {
-    return {};
+    return {}
   },
-};
+}
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->

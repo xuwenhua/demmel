@@ -79,123 +79,123 @@
 <script>
 /* eslint-disable */
 export default {
-  name: "NavBar",
+  name: 'NavBar',
   data() {
     return {
       navList: [
         {
-          title: "HOME",
-          url: "/",
+          title: 'HOME',
+          url: '/',
         },
         {
-          title: "SOLUTIONS",
-          url: "/solutions",
-          background: require("../assets/dist/100_fot_car_city_night@2x.png"),
+          title: 'SOLUTIONS',
+          url: '/solutions',
+          background: require('../assets/dist/100_fot_car_city_night@2x.png'),
           children: [
             {
-              title: "HMI",
-              url: "/solutions/1",
-              background: require("../assets/dist/100_fot_car_city_night@2x.png"),
+              title: 'HMI',
+              url: '/solutions/1',
+              background: require('../assets/dist/100_fot_car_city_night@2x.png'),
             },
             {
-              title: "AUTOMOTIVE",
-              url: "/solutions/2",
-              background: require("../assets/dist/100_own_emblem_bmw.png"),
+              title: 'AUTOMOTIVE',
+              url: '/solutions/2',
+              background: require('../assets/dist/100_own_emblem_bmw.png'),
               children: [
                 {
-                  title: "EMBLEMS",
-                  url: "/solutions/2/1",
-                  background: require("../assets/dist/100_own_emblem_bmw.png"),
+                  title: 'EMBLEMS',
+                  url: '/solutions/2/1',
+                  background: require('../assets/dist/100_own_emblem_bmw.png'),
                 },
                 {
-                  title: "ENTRY SILLS",
-                  url: "/solutions/2/2",
-                  background: require("../assets/dist/100_own_emblem_bmw.png"),
+                  title: 'ENTRY SILLS',
+                  url: '/solutions/2/2',
+                  background: require('../assets/dist/100_own_emblem_bmw.png'),
                 },
               ],
             },
             {
-              title: "METAL PARTS",
-              url: "/solutions/3",
-              background: require("../assets/dist/item-bg.png"),
+              title: 'METAL PARTS',
+              url: '/solutions/3',
+              background: require('../assets/dist/item-bg.png'),
               children: [
                 {
-                  title: "PROFILE",
-                  url: "/solutions/3/1",
-                  background: require("../assets/dist/item-bg.png"),
+                  title: 'PROFILE',
+                  url: '/solutions/3/1',
+                  background: require('../assets/dist/item-bg.png'),
                 },
                 {
-                  title: "BRACKETS",
-                  url: "/solutions/3/2",
-                  background: require("../assets/dist/item-bg.png"),
+                  title: 'BRACKETS',
+                  url: '/solutions/3/2',
+                  background: require('../assets/dist/item-bg.png'),
                 },
                 {
-                  title: "BURNING HOUSE",
-                  url: "/solutions/3/3",
-                  background: require("../assets/dist/item-bg.png"),
+                  title: 'BURNING HOUSE',
+                  url: '/solutions/3/3',
+                  background: require('../assets/dist/item-bg.png'),
                 },
                 {
-                  title: "ASSEMBLIES",
-                  url: "/solutions/3/4",
-                  background: require("../assets/dist/item-bg.png"),
+                  title: 'ASSEMBLIES',
+                  url: '/solutions/3/4',
+                  background: require('../assets/dist/item-bg.png'),
                 },
               ],
             },
           ],
         },
         {
-          title: "COMPANY",
-          background: require("../assets/dist/100_own_building_plant1.png"),
+          title: 'COMPANY',
+          background: require('../assets/dist/100_own_building_plant1.png'),
           children: [
             {
-              title: "COMPANY HISTORY",
-              url: "/company/1",
-              background: require("../assets/dist/100_own_building_plant1.png"),
+              title: 'COMPANY HISTORY',
+              url: '/company/1',
+              background: require('../assets/dist/100_own_building_plant1.png'),
             },
             {
-              title: "QUALITY",
-              url: "/company/2",
-              background: require("../assets/dist/100_own_building_plant1.png"),
+              title: 'QUALITY',
+              url: '/company/2',
+              background: require('../assets/dist/100_own_building_plant1.png'),
             },
             {
-              title: "ENVIRONMENT",
-              url: "/company/3",
-              background: require("../assets/dist/100_own_building_plant1.png"),
+              title: 'ENVIRONMENT',
+              url: '/company/3',
+              background: require('../assets/dist/100_own_building_plant1.png'),
             },
             {
-              title: "VISION & VALUES",
-              url: "/company/4",
-              background: require("../assets/dist/100_own_building_plant1.png"),
+              title: 'VISION & VALUES',
+              url: '/company/4',
+              background: require('../assets/dist/100_own_building_plant1.png'),
             },
           ],
         },
         {
-          title: "CONTACT",
-          url: "/contact",
+          title: 'CONTACT',
+          url: '/contact',
         },
       ],
-      background: "",
+      background: '',
       childItem: [],
-    };
+    }
   },
   computed: {
     currentUrl() {
-      return this.$route.fullPath;
+      return this.$route.fullPath
     },
   },
   methods: {
     showNavBarImg(item, child) {
-      this.childItem = [];
-      this.background = item.background;
+      this.childItem = []
+      this.background = item.background
       if (child && item.children) {
-        this.childItem = item.children;
+        this.childItem = item.children
       }
-      if (!item.children || item.title === "COMPANY") {
-        this.childItem = [];
+      if (!item.children || item.title === 'COMPANY') {
+        this.childItem = []
       }
     },
     showNavBarChildImg(item) {
-      this.background = item.background;
+      this.background = item.background
     },
     resetNavBarImg() {
       // this.background = ''
@@ -203,11 +203,11 @@ export default {
     },
     handleUrl(item) {
       if (item.url) {
-        this.$router.push(item.url);
+        this.$router.push(item.url)
       }
     },
   },
-};
+}
 </script>
 <style lang="scss" scoped>
 .nav-bar {
@@ -220,7 +220,7 @@ export default {
   box-shadow: 0px 1px 2px #949494;
   font-weight: 500;
   &:after {
-    content: "";
+    content: '';
     height: 0;
     line-height: 0;
     display: block;
@@ -247,7 +247,7 @@ export default {
     color: #000000;
     margin-left: 30px;
     &:after {
-      content: "";
+      content: '';
       height: 0;
       line-height: 0;
       display: block;
@@ -304,7 +304,7 @@ export default {
           border-bottom: 140px solid #ffffff;
           top: 0;
           left: -20px;
-          content: "";
+          content: '';
           display: block;
           position: absolute;
           -webkit-backface-visibility: hidden;
@@ -318,7 +318,7 @@ export default {
           border-bottom: 140px solid transparent;
           top: 0;
           right: -20px;
-          content: "";
+          content: '';
           display: block;
           position: absolute;
           -webkit-backface-visibility: hidden;
