@@ -17,6 +17,7 @@
           <div class="img">
             <img src="../assets/dist/item1.jpg" />
           </div>
+          <div class="btn">READ MORE</div>
         </div>
         <div class="item">
           <div class="title">METAL PARTS</div>
@@ -40,15 +41,15 @@
       <div class="index-about">
         <div class="title">ABOUT DEMMEL CN</div>
         <div class="txt">
-          Demmel Metal Components (Nanjing) Co., Ltd, China, DCN as a short form
-          is a subsidiary of Demmel Group, Germany. It develops, manufacture and
-          supplies high end decorative parts and metal parts to the selected
-          industrial customers in automotive, mechanics, electronics industry.
-          Our product range also covers stainless steel keyboards and membrance
-          keypads which apply in human-machine interface devices (HMI) and input
-          systems.
+          Demmel CN is a subsidiary of Demmel Group, Germany. It develops,
+          manufactures and supplies high end decorative parts, metal parts and
+          input devices. Our customers include the automotive industry as well
+          as its suppliers, the mechanical engineering industry and electrical
+          appliance manufacturers.
         </div>
         <div class="txt">
+          Continuous innovation is the key to creating unique characteristics
+          that set a company apart from its competitors and give it the edge.
           With a long standing experience and supply competence, we are ready to
           deliver to the world and to satisfy our customers up to their
           expectation.

@@ -93,11 +93,6 @@ export default {
           background: require('../assets/dist/100_fot_car_city_night@2x.png'),
           children: [
             {
-              title: 'HMI',
-              url: '/solutions/1',
-              background: require('../assets/dist/100_fot_car_city_night@2x.png'),
-            },
-            {
               title: 'AUTOMOTIVE',
               url: '/solutions/2',
               background: require('../assets/dist/100_own_emblem_bmw.png'),
@@ -110,7 +105,7 @@ export default {
                 {
                   title: 'ENTRY SILLS',
                   url: '/solutions/2/2',
-                  background: require('../assets/dist/100_own_emblem_bmw.png'),
+                  background: require('../assets/dist/100_own_emblem_rs3.png'),
                 },
               ],
             },
@@ -141,6 +136,11 @@ export default {
                 },
               ],
             },
+            {
+              title: 'HMI',
+              url: '/solutions/1',
+              background: require('../assets/dist/100_fot_car_city_night@2x.png'),
+            },
           ],
         },
         {
@@ -168,6 +168,10 @@ export default {
               background: require('../assets/dist/100_own_building_plant1.png'),
             },
           ],
+        },
+        {
+          title: 'SUPPLIERS',
+          url: '/suppliers',
         },
         {
           title: 'CONTACT',
@@ -260,7 +264,7 @@ export default {
       cursor: pointer;
       position: relative;
       .title {
-        width: 180px;
+        width: 150px;
         text-align: center;
         cursor: pointer;
       }
@@ -330,16 +334,32 @@ export default {
           // height: 40px;
           width: 170px;
           line-height: 40px;
-          font-size: 17px;
+          font-size: 16px;
           text-align: left;
           padding-left: 25px;
-          color: #9e9e9e;
+          color: #000;
           background-color: #fff;
           cursor: pointer;
+          font-weight: 100;
           &:hover,
           &.active {
             .child-title {
-              color: #000;
+              color: #00789e;
+              position: relative;
+              &::before {
+                border-top: 6px solid transparent;
+                border-left: 6px solid #00789e;
+                border-bottom: 6px solid transparent;
+                top: 13px;
+                left: -8px;
+                content: '';
+                display: block;
+                position: absolute;
+                -webkit-backface-visibility: hidden;
+                -moz-backface-visibility: hidden;
+                backface-visibility: hidden;
+                width: 0;
+              }
             }
             & > .sub-wrapper {
               display: block;
