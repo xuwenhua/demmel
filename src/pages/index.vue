@@ -22,10 +22,9 @@
         <div class="item">
           <div class="title">METAL PARTS</div>
           <div class="sub-category-wrapper">
-            <div class="sub">PROFILE</div>
             <div class="sub">BRACKETS</div>
-            <div class="sub">BURNING HOUSE</div>
-            <div class="sub">ASSEMBLIES</div>
+            <div class="sub">PROFILES</div>
+            <div class="sub">BURNER FRAME</div>
           </div>
           <div class="img">
             <img src="../assets/dist/item3.jpg" />

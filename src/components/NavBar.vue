@@ -94,17 +94,17 @@ export default {
           children: [
             {
               title: 'AUTOMOTIVE',
-              url: '/solutions/2',
+              url: '/solutions/1/index',
               background: require('../assets/dist/100_own_emblem_bmw.png'),
               children: [
                 {
                   title: 'EMBLEMS',
-                  url: '/solutions/2/1',
+                  url: '/solutions/1/1',
                   background: require('../assets/dist/100_own_emblem_bmw.png'),
                 },
                 {
                   title: 'ENTRY SILLS',
-                  url: '/solutions/2/2',
+                  url: '/solutions/1/2',
                   background: require('../assets/dist/100_own_emblem_rs3.png'),
                 },
               ],
@@ -115,23 +115,18 @@ export default {
               background: require('../assets/dist/item-bg.png'),
               children: [
                 {
-                  title: 'PROFILE',
+                  title: 'BRACKETS',
                   url: '/solutions/3/1',
                   background: require('../assets/dist/item-bg.png'),
                 },
                 {
-                  title: 'BRACKETS',
+                  title: 'PROFILES',
                   url: '/solutions/3/2',
                   background: require('../assets/dist/item-bg.png'),
                 },
                 {
-                  title: 'BURNING HOUSE',
+                  title: 'BURNER FRAME',
                   url: '/solutions/3/3',
-                  background: require('../assets/dist/item-bg.png'),
-                },
-                {
-                  title: 'ASSEMBLIES',
-                  url: '/solutions/3/4',
                   background: require('../assets/dist/item-bg.png'),
                 },
               ],
