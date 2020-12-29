@@ -134,7 +134,19 @@ export default {
             {
               title: 'HMI',
               url: '/solutions/1',
-              background: require('../assets/dist/100_fot_car_city_night@2x.png'),
+              background: require('../assets/dist/item-bg.png'),
+              children: [
+                {
+                  title: 'VAS METAL KEYPADS',
+                  url: '/solutions/3/1',
+                  background: require('../assets/dist/item-bg.png'),
+                },
+                {
+                  title: 'FOIL KEYPADS',
+                  url: '/solutions/3/2',
+                  background: require('../assets/dist/item-bg.png'),
+                },
+              ],
             },
           ],
         },
@@ -329,7 +341,7 @@ export default {
           // height: 40px;
           width: 170px;
           line-height: 40px;
-          font-size: 16px;
+          font-size: 15px;
           text-align: left;
           padding-left: 25px;
           color: #000;
