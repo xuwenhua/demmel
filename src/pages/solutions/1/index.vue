@@ -47,7 +47,7 @@
               </div>
             </div>
             <div class="img">
-              <img src="../../../assets/dist/item1.jpg" />
+              <img src="../../../assets/dist/products/1_index_1.jpg" />
             </div>
           </div>
           <div class="item">
@@ -56,13 +56,13 @@
               <div class="remark">
                 <div class="remark-title">DEMMEL - WE CREATE IDENTITY</div>
                 <p>
-                  We constantly further develop our varnishing systems and
-                  processes such as plastic back-injection...
+                  Our entry sills open up exciting design options for you in
+                  terms of function and surface finish...
                 </p>
               </div>
             </div>
             <div class="img">
-              <img src="../../../assets/dist/item3.jpg" />
+              <img src="../../../assets/dist/products/1_index_2.jpg" />
             </div>
           </div>
         </div>

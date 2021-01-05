@@ -112,39 +112,39 @@ export default {
             {
               title: 'METAL PARTS',
               url: '/solutions/3',
-              background: require('../assets/dist/item-bg.png'),
+              background: require('../assets/dist/item2_1.png'),
               children: [
                 {
                   title: 'BRACKETS',
                   url: '/solutions/3/1',
-                  background: require('../assets/dist/item-bg.png'),
+                  background: require('../assets/dist/item2_1.png'),
                 },
                 {
                   title: 'PROFILES',
                   url: '/solutions/3/2',
-                  background: require('../assets/dist/item-bg.png'),
+                  background: require('../assets/dist/item2_2.png'),
                 },
                 {
                   title: 'BURNER FRAME',
                   url: '/solutions/3/3',
-                  background: require('../assets/dist/item-bg.png'),
+                  background: require('../assets/dist/item2_3.png'),
                 },
               ],
             },
             {
               title: 'HMI',
               url: '/solutions/1',
-              background: require('../assets/dist/item-bg.png'),
+              background: require('../assets/dist/item3_1.png'),
               children: [
                 {
                   title: 'VAS METAL KEYPADS',
                   url: '/solutions/3/1',
-                  background: require('../assets/dist/item-bg.png'),
+                  background: require('../assets/dist/item3_1.png'),
                 },
                 {
                   title: 'FOIL KEYPADS',
                   url: '/solutions/3/2',
-                  background: require('../assets/dist/item-bg.png'),
+                  background: require('../assets/dist/item3_2.png'),
                 },
               ],
             },
