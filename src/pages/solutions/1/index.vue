@@ -49,6 +49,7 @@
             <div class="img">
               <img src="../../../assets/dist/products/1_index_1.jpg" />
             </div>
+            <div class="btn">READ MORE</div>
           </div>
           <div class="item">
             <div class="title">ENZTRY SILLS</div>
@@ -64,6 +65,7 @@
             <div class="img">
               <img src="../../../assets/dist/products/1_index_2.jpg" />
             </div>
+            <div class="btn">READ MORE</div>
           </div>
         </div>
       </div>
@@ -148,10 +150,11 @@ export default {
         overflow: hidden;
         padding-top: 70px;
         margin-bottom: 100px;
+        padding-bottom: 10px;
         .item {
           float: left;
           width: 306px;
-          height: 396px;
+          height: 390px;
           -moz-box-shadow: 0px 0px 5px #999;
           -webkit-box-shadow: 0px 0px 5px #999;
           box-shadow: 0px 0px 5px #999;
@@ -160,6 +163,21 @@ export default {
           overflow: hidden;
           &:first-child {
             margin-left: 5px;
+          }
+          .btn {
+            border: 3px solid #00789e;
+            position: absolute;
+            padding: 5px 0;
+            width: 120px;
+            color: #fff;
+            text-align: center;
+            top: 70%;
+            left: 50%;
+            margin-left: -60px;
+            cursor: pointer;
+            display: none;
+            animation-name: zoomIn;
+            animation-duration: 1s;
           }
           &:hover {
             .sub-category-wrapper {
@@ -174,6 +192,9 @@ export default {
                   font-size: 14px;
                 }
               }
+            }
+            .btn {
+              display: block;
             }
           }
           .title {

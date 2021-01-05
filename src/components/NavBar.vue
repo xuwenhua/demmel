@@ -111,7 +111,7 @@ export default {
             },
             {
               title: 'METAL PARTS',
-              url: '/solutions/3',
+              url: '/solutions/2/index',
               background: require('../assets/dist/item2_1.png'),
               children: [
                 {
@@ -133,7 +133,7 @@ export default {
             },
             {
               title: 'HMI',
-              url: '/solutions/1',
+              url: '/solutions/3/index',
               background: require('../assets/dist/item3_1.png'),
               children: [
                 {

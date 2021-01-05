@@ -4,62 +4,41 @@
       <NavBar />
     </div>
     <div class="banner-wrapper">
-      <img src="../assets/banner/banner-child-1.png" />
+      <img
+        src="../../../assets/banner/100_own_einstiegsleiste_vw_offroad.jpeg"
+        style="height: 300px"
+      />
     </div>
     <div class="main-wrapper">
       <div class="page-title">
-        <div class="title">Solutions</div>
+        <div class="title">Entry Sills</div>
         <div class="page-map">
           <router-link to="/" class="link">Demmel</router-link>
           <span>»</span>
           <router-link to="/solutions" class="link">Solutions</router-link>
+          <span>»</span>
+          <router-link to="/solutions/1/index" class="link"
+            >Automotive Identity</router-link
+          >
         </div>
       </div>
       <div class="page-content">
-        <div class="sub-title">BUSINESS DIVISIONS OF DEMMEL</div>
         <div class="sub-info">
           <p>
-            As a renowned hi-tech company, Demmel group have been producing
-            innovative solutions for 130 years, giving products a distinctive
-            identity. That includes input devices and decorative parts for
-            kitchen appliances, ATMs, touch solutions in mechanical engineering,
-            decorative parts and functional parts for the automotive industry.
-            Every day, millions of people come into contact with our products
-            and rely on their quality and precision.
+            Our entry sills open up exciting design options for you in terms of
+            function and surface finish. Other distinctive statements come from
+            our illuminated or non-illuminated decorative parts.
           </p>
-        </div>
-        <div class="category-wrapper">
-          <div class="item">
-            <div class="title">AUTOMOTIVE</div>
-            <div class="sub-category-wrapper">
-              <div class="sub">EMBLEMS</div>
-              <div class="sub">ENZTRY SILLS</div>
-            </div>
-            <div class="img">
-              <img src="../assets/dist/item1.jpg" />
-            </div>
-          </div>
-          <div class="item">
-            <div class="title">METAL PARTS</div>
-            <div class="sub-category-wrapper">
-              <div class="sub">BRACKETS</div>
-              <div class="sub">PROFILES</div>
-              <div class="sub">BURNER FRAME</div>
-            </div>
-            <div class="img">
-              <img src="../assets/dist/item3.jpg" />
-            </div>
-          </div>
-          <div class="item">
-            <div class="title">HMI</div>
-            <div class="sub-category-wrapper">
-              <div class="sub">VAS METAL KEYPADS</div>
-              <div class="sub">FOIL KEYPADS</div>
-            </div>
-            <div class="img">
-              <img src="../assets/dist/item2.jpg" />
-            </div>
-          </div>
+          <p><b>Material:</b> aluminium or stainless steel</p>
+          <p><b>Anti-corrosion surface protection:</b> PU coating, anodized.</p>
+          <p>
+            <b>Design:</b> brushed, selectively brushed, screen printed, various
+            degrees of gloss, stamping or embossing.
+          </p>
+          <p>
+            <b>Geometric requirements:</b> Whether you want shaped or flat
+            solutions, we create new standards in implementing your wishes.
+          </p>
         </div>
       </div>
     </div>
@@ -74,7 +53,7 @@
 import NavBar from '@/components/NavBar'
 
 export default {
-  name: 'Solutions',
+  name: 'SolutionsAutoMotive',
   components: { NavBar },
   data() {
     return {}
@@ -128,6 +107,7 @@ export default {
       width: 1290px;
       margin: 0 auto;
       padding-top: 30px;
+      padding-bottom: 30px;
       .sub-title {
         color: #00789e;
         font-size: 18px;
@@ -157,11 +137,37 @@ export default {
           &:first-child {
             margin-left: 5px;
           }
+          .btn {
+            border: 3px solid #00789e;
+            position: absolute;
+            padding: 5px 0;
+            width: 120px;
+            color: #fff;
+            text-align: center;
+            top: 70%;
+            left: 50%;
+            margin-left: -60px;
+            cursor: pointer;
+            display: none;
+            animation-name: zoomIn;
+            animation-duration: 1s;
+          }
           &:hover {
             .sub-category-wrapper {
               display: block;
               animation-name: bounceIn;
               animation-duration: 1s;
+              .remark {
+                padding: 0 20px;
+                line-height: 30px;
+                .remark-title {
+                  color: #00789e;
+                  font-size: 14px;
+                }
+              }
+            }
+            .btn {
+              display: block;
             }
           }
           .title {

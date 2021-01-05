@@ -11,8 +11,8 @@
         <div class="item">
           <div class="title">AUTOMOTIVE</div>
           <div class="sub-category-wrapper">
-            <div class="sub">EMBLEMS</div>
-            <div class="sub">ENTRY SILLS</div>
+            <div class="sub" @click="handleUrl('/solutions/1/emblems')">EMBLEMS</div>
+            <div class="sub" @click="handleUrl('/solutions/1/entrysills')">ENTRY SILLS</div>
           </div>
           <div class="img">
             <img src="../assets/dist/item1.jpg" />
@@ -29,12 +29,18 @@
           <div class="img">
             <img src="../assets/dist/item3.jpg" />
           </div>
+          <div class="btn" style="color: #00789e">READ MORE</div>
         </div>
         <div class="item">
           <div class="title">HMI</div>
+          <div class="sub-category-wrapper">
+            <div class="sub">VAS METAL KEYPADS</div>
+            <div class="sub">FOIL KEYPADS</div>
+          </div>
           <div class="img">
             <img src="../assets/dist/item2.jpg" />
           </div>
+          <div class="btn">READ MORE</div>
         </div>
       </div>
       <div class="index-about">
@@ -69,6 +75,13 @@ export default {
   data() {
     return {}
   },
+  methods: {
+    handleUrl(url) {
+      if (url) {
+        this.$router.push(url)
+      }
+    },
+  }
 }
 </script>
 
@@ -101,16 +114,32 @@ export default {
       width: 1290px;
       overflow: hidden;
       padding-top: 70px;
+      padding-bottom: 10px;
       .item {
         float: left;
         width: 306px;
-        height: 396px;
+        height: 390px;
         -moz-box-shadow: 0px 0px 5px #999;
         -webkit-box-shadow: 0px 0px 5px #999;
         box-shadow: 0px 0px 5px #999;
         position: relative;
         margin-left: 177px;
         overflow: hidden;
+        .btn {
+          border: 3px solid #00789e;
+          position: absolute;
+          padding: 5px 0;
+          width: 120px;
+          color: #fff;
+          text-align: center;
+          top: 60%;
+          left: 50%;
+          margin-left: -60px;
+          cursor: pointer;
+          display: none;
+          animation-name: zoomIn;
+          animation-duration: 1s;
+        }
         &:first-child {
           margin-left: 5px;
         }
@@ -118,7 +147,10 @@ export default {
           .sub-category-wrapper {
             display: block;
             animation-name: bounceIn;
-            animation-duration: 1s;
+            animation-duration: 0.3s;
+          }
+          .btn {
+            display: block;
           }
         }
         .title {
