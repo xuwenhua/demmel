@@ -4,7 +4,7 @@
       <NavBar />
     </div>
     <div class="banner-wrapper">
-      <img src="../../../assets/banner/banner-child-1.png" />
+      <img src="../../../assets/banner/banner-child-4.jpg" />
     </div>
     <div class="main-wrapper">
       <div class="page-title">
@@ -52,7 +52,7 @@
             <div class="img">
               <img src="../../../assets/dist/products/2_index_1.jpg" />
             </div>
-            <div class="btn">READ MORE</div>
+            <div class="btn" @click="handleUrl('/solutions/2/brackets')">READ MORE</div>
           </div>
           <div class="item">
             <div class="title">PROFILES</div>
@@ -67,7 +67,7 @@
             <div class="img">
               <img src="../../../assets/dist/products/2_index_2.jpg" />
             </div>
-            <div class="btn">READ MORE</div>
+            <div class="btn" @click="handleUrl('/solutions/2/profiles')">READ MORE</div>
           </div>
           <div class="item">
             <div class="title">BURNER FRAME</div>
@@ -82,7 +82,7 @@
             <div class="img">
               <img src="../../../assets/dist/products/2_index_3.jpg" />
             </div>
-            <div class="btn">READ MORE</div>
+            <div class="btn" @click="handleUrl('/solutions/2/burnerframe')">READ MORE</div>
           </div>
         </div>
       </div>
@@ -102,6 +102,13 @@ export default {
   components: { NavBar },
   data() {
     return {}
+  },
+  methods: {
+    handleUrl(url) {
+      if (url) {
+        this.$router.push(url)
+      }
+    },
   },
 }
 </script>
@@ -123,6 +130,8 @@ export default {
     left: 0;
     right: 0;
     z-index: 1;
+    display: flex;
+    justify-content: center;
   }
   .main-wrapper {
     min-height: 362px;

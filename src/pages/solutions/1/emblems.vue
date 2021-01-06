@@ -6,7 +6,6 @@
     <div class="banner-wrapper">
       <img
         src="../../../assets/banner/100_own_emblem_bmw_3.jpeg"
-        style="height: 300px"
       />
     </div>
     <div class="main-wrapper">
@@ -111,7 +110,7 @@ export default {
       width: 1290px;
       margin: 0 auto;
       padding-top: 30px;
-      padding-bottom: 30px;
+      padding-bottom: 80px;
       .sub-title {
         color: #00789e;
         font-size: 18px;

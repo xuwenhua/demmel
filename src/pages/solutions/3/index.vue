@@ -4,7 +4,7 @@
       <NavBar />
     </div>
     <div class="banner-wrapper">
-      <img src="../../../assets/banner/banner-child-1.png" />
+      <img src="../../../assets/banner/tastatur-2.jpeg" />
     </div>
     <div class="main-wrapper">
       <div class="page-title">
@@ -52,7 +52,9 @@
             <div class="img">
               <img src="../../../assets/dist/products/3_index_1.jpg" />
             </div>
-            <div class="btn">READ MORE</div>
+            <div class="btn" @click="handleUrl('/solutions/3/vasmetalkeypads')">
+              READ MORE
+            </div>
           </div>
           <div class="item">
             <div class="title">FOIL KEYPADS</div>
@@ -70,7 +72,13 @@
             <div class="img">
               <img src="../../../assets/dist/products/3_index_2.jpg" />
             </div>
-            <div class="btn" style="color:#00789e;">READ MORE</div>
+            <div
+              class="btn"
+              style="color: #00789e"
+              @click="handleUrl('/solutions/3/foilkeypads')"
+            >
+              READ MORE
+            </div>
           </div>
         </div>
       </div>
@@ -90,6 +98,13 @@ export default {
   components: { NavBar },
   data() {
     return {}
+  },
+  methods: {
+    handleUrl(url) {
+      if (url) {
+        this.$router.push(url)
+      }
+    },
   },
 }
 </script>

@@ -4,69 +4,35 @@
       <NavBar />
     </div>
     <div class="banner-wrapper">
-      <img src="../../../assets/banner/banner-child-1.png" />
+      <img src="../../../assets/banner/banner-child-4.jpg" />
     </div>
     <div class="main-wrapper">
       <div class="page-title">
-        <div class="title">Automotive Identity</div>
+        <div class="title">Brackets</div>
         <div class="page-map">
           <router-link to="/" class="link">Demmel</router-link>
           <span>»</span>
           <router-link to="/solutions" class="link">Solutions</router-link>
           <span>»</span>
-          <router-link to="/solutions/1/index" class="link"
-            >Automotive Identity</router-link
+          <router-link to="/solutions/2/index" class="link"
+            >Metal Parts</router-link
           >
         </div>
       </div>
       <div class="page-content">
-        <div class="sub-title">DEMMEL - WE CREATE IDENTITY</div>
+        <div class="sub-title">With us, your metal part is in safe hands.</div>
         <div class="sub-info">
-          <p>Whenever it's about your brand.</p>
+          <p><b>Material:</b> Carbon steel, Stainless steel, Aluminium</p>
+          <p><b>Process:</b> Forming, Bending, Drawn, Welding, Assembling</p>
           <p>
-            In Automotive, we are able to add value to your brand applying smart
-            technical solutions, i.e by integrating LED into your trim pieces or
-            emblems using modern back- molding and ultrasonic welding processes.
+            <b>Surface protection:</b> KTL, Galvanizing, Anodizing, High Gloss,
+            PVD
           </p>
           <p>
-            Ask us for any individual solution you may have in mind. Within the
-            Demmel Group, we have decades worth of expertise in Metal,
-            Electronics, Printing, and Design
+            <b>Tooling:</b> Progressive tooling, transfer tooling, follow-on
+            composite tooling to meet the demand in large, medium and small
+            series.
           </p>
-        </div>
-        <div class="category-wrapper">
-          <div class="item">
-            <div class="title">EMBLEMS</div>
-            <div class="sub-category-wrapper">
-              <div class="remark">
-                <div class="remark-title">DEMMEL - WE CREATE IDENTITY</div>
-                <p>
-                  We constantly further develop our varnishing systems and
-                  processes such as plastic back-injection...
-                </p>
-              </div>
-            </div>
-            <div class="img">
-              <img src="../../../assets/dist/products/1_index_1.jpg" />
-            </div>
-            <div class="btn" @click="handleUrl('/solutions/1/emblems')">READ MORE</div>
-          </div>
-          <div class="item">
-            <div class="title">ENZTRY SILLS</div>
-            <div class="sub-category-wrapper">
-              <div class="remark">
-                <div class="remark-title">DEMMEL - WE CREATE IDENTITY</div>
-                <p>
-                  Our entry sills open up exciting design options for you in
-                  terms of function and surface finish...
-                </p>
-              </div>
-            </div>
-            <div class="img">
-              <img src="../../../assets/dist/products/1_index_2.jpg" />
-            </div>
-            <div class="btn" @click="handleUrl('/solutions/1/entrysills')">READ MORE</div>
-          </div>
         </div>
       </div>
     </div>
@@ -85,13 +51,6 @@ export default {
   components: { NavBar },
   data() {
     return {}
-  },
-  methods: {
-    handleUrl(url) {
-      if (url) {
-        this.$router.push(url)
-      }
-    },
   },
 }
 </script>
@@ -113,6 +72,8 @@ export default {
     left: 0;
     right: 0;
     z-index: 1;
+    display: flex;
+    justify-content: center;
   }
   .main-wrapper {
     min-height: 362px;
@@ -142,6 +103,7 @@ export default {
       width: 1290px;
       margin: 0 auto;
       padding-top: 30px;
+      padding-bottom: 80px;
       .sub-title {
         color: #00789e;
         font-size: 18px;

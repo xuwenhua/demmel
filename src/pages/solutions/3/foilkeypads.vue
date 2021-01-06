@@ -4,69 +4,32 @@
       <NavBar />
     </div>
     <div class="banner-wrapper">
-      <img src="../../../assets/banner/banner-child-1.png" />
+      <img src="../../../assets/banner/tastatur-2.jpeg" />
     </div>
     <div class="main-wrapper">
       <div class="page-title">
-        <div class="title">Automotive Identity</div>
+        <div class="title">Foil Keypads</div>
         <div class="page-map">
           <router-link to="/" class="link">Demmel</router-link>
           <span>»</span>
           <router-link to="/solutions" class="link">Solutions</router-link>
           <span>»</span>
-          <router-link to="/solutions/1/index" class="link"
-            >Automotive Identity</router-link
-          >
+          <router-link to="/solutions/3/index" class="link">HMI</router-link>
         </div>
       </div>
       <div class="page-content">
-        <div class="sub-title">DEMMEL - WE CREATE IDENTITY</div>
-        <div class="sub-info">
-          <p>Whenever it's about your brand.</p>
-          <p>
-            In Automotive, we are able to add value to your brand applying smart
-            technical solutions, i.e by integrating LED into your trim pieces or
-            emblems using modern back- molding and ultrasonic welding processes.
-          </p>
-          <p>
-            Ask us for any individual solution you may have in mind. Within the
-            Demmel Group, we have decades worth of expertise in Metal,
-            Electronics, Printing, and Design
-          </p>
+        <div class="sub-title">
+          Low-cost flat keypads designed to your specifications.
         </div>
-        <div class="category-wrapper">
-          <div class="item">
-            <div class="title">EMBLEMS</div>
-            <div class="sub-category-wrapper">
-              <div class="remark">
-                <div class="remark-title">DEMMEL - WE CREATE IDENTITY</div>
-                <p>
-                  We constantly further develop our varnishing systems and
-                  processes such as plastic back-injection...
-                </p>
-              </div>
-            </div>
-            <div class="img">
-              <img src="../../../assets/dist/products/1_index_1.jpg" />
-            </div>
-            <div class="btn" @click="handleUrl('/solutions/1/emblems')">READ MORE</div>
-          </div>
-          <div class="item">
-            <div class="title">ENZTRY SILLS</div>
-            <div class="sub-category-wrapper">
-              <div class="remark">
-                <div class="remark-title">DEMMEL - WE CREATE IDENTITY</div>
-                <p>
-                  Our entry sills open up exciting design options for you in
-                  terms of function and surface finish...
-                </p>
-              </div>
-            </div>
-            <div class="img">
-              <img src="../../../assets/dist/products/1_index_2.jpg" />
-            </div>
-            <div class="btn" @click="handleUrl('/solutions/1/entrysills')">READ MORE</div>
-          </div>
+        <div class="sub-info">
+          <p>
+            Drawing on our many years of experience in mechanics, screen
+            printing and assembly, we manufacture foil keypads in custom
+            designs. Whenever you need closed, easy-clean surfaces on tactile
+            control systems, foil keypads are the cost-effective solution with
+            low initial investment costs. Whether shielding, key illumination or
+            integration of touchscreens – our keypads are state-of-the-art.
+          </p>
         </div>
       </div>
     </div>
@@ -85,13 +48,6 @@ export default {
   components: { NavBar },
   data() {
     return {}
-  },
-  methods: {
-    handleUrl(url) {
-      if (url) {
-        this.$router.push(url)
-      }
-    },
   },
 }
 </script>
@@ -142,6 +98,7 @@ export default {
       width: 1290px;
       margin: 0 auto;
       padding-top: 30px;
+      padding-bottom: 80px;
       .sub-title {
         color: #00789e;
         font-size: 18px;

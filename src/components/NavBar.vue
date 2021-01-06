@@ -48,7 +48,7 @@
               :key="index"
               @mouseover="showNavBarChildImg(item)"
               @mouseout="resetNavBarImg"
-              @click="handleUrl(index)"
+              @click="handleUrl(item)"
             >
               <div class="child-title">{{ item.title }}</div>
             </div>
@@ -99,12 +99,12 @@ export default {
               children: [
                 {
                   title: 'EMBLEMS',
-                  url: '/solutions/1/1',
+                  url: '/solutions/1/emblems',
                   background: require('../assets/dist/100_own_emblem_bmw.png'),
                 },
                 {
                   title: 'ENTRY SILLS',
-                  url: '/solutions/1/2',
+                  url: '/solutions/1/entrysills',
                   background: require('../assets/dist/100_own_emblem_rs3.png'),
                 },
               ],
@@ -116,17 +116,17 @@ export default {
               children: [
                 {
                   title: 'BRACKETS',
-                  url: '/solutions/3/1',
+                  url: '/solutions/2/brackets',
                   background: require('../assets/dist/item2_1.png'),
                 },
                 {
                   title: 'PROFILES',
-                  url: '/solutions/3/2',
+                  url: '/solutions/2/profiles',
                   background: require('../assets/dist/item2_2.png'),
                 },
                 {
                   title: 'BURNER FRAME',
-                  url: '/solutions/3/3',
+                  url: '/solutions/2/burnerframe',
                   background: require('../assets/dist/item2_3.png'),
                 },
               ],
@@ -138,12 +138,12 @@ export default {
               children: [
                 {
                   title: 'VAS METAL KEYPADS',
-                  url: '/solutions/3/1',
+                  url: '/solutions/3/vasmetalkeypads',
                   background: require('../assets/dist/item3_1.png'),
                 },
                 {
                   title: 'FOIL KEYPADS',
-                  url: '/solutions/3/2',
+                  url: '/solutions/3/foilkeypads',
                   background: require('../assets/dist/item3_2.png'),
                 },
               ],
@@ -156,22 +156,22 @@ export default {
           children: [
             {
               title: 'COMPANY HISTORY',
-              url: '/company/1',
+              url: '/company/companyhistory',
               background: require('../assets/dist/100_own_building_plant1.png'),
             },
             {
               title: 'QUALITY',
-              url: '/company/2',
+              url: '/company/quality',
               background: require('../assets/dist/100_own_building_plant1.png'),
             },
             {
               title: 'ENVIRONMENT',
-              url: '/company/3',
+              url: '/company/environment',
               background: require('../assets/dist/100_own_building_plant1.png'),
             },
             {
               title: 'VISION & VALUES',
-              url: '/company/4',
+              url: '/company/visionvalues',
               background: require('../assets/dist/100_own_building_plant1.png'),
             },
           ],

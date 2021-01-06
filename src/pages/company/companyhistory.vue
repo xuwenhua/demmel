@@ -1,0 +1,186 @@
+<template>
+  <div class="content">
+    <div class="nav-bar-wrapper">
+      <NavBar />
+    </div>
+    <div class="banner-wrapper">
+      <img src="../../assets/banner/banner-child-3.jpg" />
+    </div>
+    <div class="main-wrapper">
+      <div class="page-title">
+        <div class="title">Company History</div>
+        <div class="page-map">
+          <router-link to="/" class="link">Demmel</router-link>
+          <span>»</span>
+          <router-link to="/company/companyhistory" class="link"
+            >Company History</router-link
+          >
+        </div>
+      </div>
+      <div class="page-content">
+        <div class="sub-wrapper">
+          <div class="sub-info">
+            <ul>
+              <li>
+                <span class="title">2020</span
+                >Over 300 metal parts for automotive industry and other applications in supply to Europe, North America and China.
+              </li>
+              <li>
+                <span class="title">2018</span
+                >3800㎡ new factory building was completed and put into operation. 
+              </li>
+              <li>
+                <span class="title">2017</span
+                >IATF 16949 certified by Bureau Veritas and being renewed ever since.
+              </li>
+              <li>
+                <span class="title">2015</span
+                >First emblem was supplied to VW, brought the company into Tier 1 supplier.
+              </li>
+              <li>
+                <span class="title">2014</span
+                >Passed ISO14001 Environmental Management System certification and being renewed ever since.
+              </li>
+              <li>
+                <span class="title">2013</span
+                >Entry Sills introduced into the company
+              </li>
+              <li>
+                <span class="title">2010</span
+                >Membrane switch assembly fully transferred from Demmel AG to DMCC.
+              </li>
+              <li>
+                <span class="title">2009</span
+                >Metal Keyboard assembly introduced into the company.
+              </li>
+              <li>
+                <span class="title">2008</span
+                >The company was taken over 100% by Demmel Group, Germany and changed name into DMCC.
+              </li>
+              <li>
+                <span class="title">2008</span
+                >TS 16949 certified by Bureau Veritas and being renewed ever since.
+              </li>
+              <li>
+                <span class="title">2006</span
+                >First metal part for automotive industry was nominated by BOS, Germany.
+              </li>
+              <li>
+                <span class="title">2001</span
+                > The company was 100% taken over by Matino AG, Germany.
+              </li>
+              <li>
+                <span class="title">1997</span
+                >The company was first founded as Nanjing Excellent by a Taiwanese investor, a metal part supplier for colour picture tube makers. 
+              </li>
+            </ul>
+          </div>
+          <div class="sub-pic">
+            <img src="../../assets/company.jpg" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-wrapper">
+      <Footer />
+    </div>
+  </div>
+</template>
+
+<script>
+/* eslint-disable */
+import NavBar from '@/components/NavBar'
+
+export default {
+  name: 'CompanyHistory',
+  components: { NavBar },
+  data() {
+    return {}
+  },
+}
+</script>
+
+<!-- Add "scoped" attribute to limit CSS to this component only -->
+<style lang="scss" scoped>
+.content {
+  position: relative;
+  .nav-bar-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 3;
+  }
+  .banner-wrapper {
+    position: fixed;
+    top: 100px;
+    left: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .main-wrapper {
+    min-height: 362px;
+    margin-top: 362px;
+    z-index: 2;
+    position: relative;
+    background-color: #fff;
+    .page-title {
+      width: 1290px;
+      margin: 0 auto;
+      padding-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      .title {
+        font-size: 30px;
+        color: #00789e;
+      }
+      .page-map {
+        color: #666;
+        .link {
+          color: #666;
+          text-decoration: none;
+        }
+      }
+    }
+    .page-content {
+      width: 1290px;
+      margin: 0 auto;
+      padding-top: 30px;
+      .sub-title {
+        color: #00789e;
+        font-size: 18px;
+      }
+      .sub-wrapper {
+        overflow: hidden;
+        .sub-info {
+          width: 800px;
+          float: left;
+          p {
+            line-height: 24px;
+          }
+          ul {
+            li {
+              line-height: 35px;
+              width: 800px;
+              word-wrap:break-word;
+              word-break: normal;
+              .title {
+                color: #00789e;
+                padding-right: 10px;
+                font-weight: bold;
+              }
+            }
+          }
+        }
+        .sub-pic {
+          float: right;
+          width: 400px;
+          img {
+            width: 400px;
+          }
+        }
+      }
+    }
+  }
+}
+</style>
