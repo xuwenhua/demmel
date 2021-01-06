@@ -4,7 +4,7 @@
       <NavBar />
     </div>
     <div class="banner-wrapper">
-      <img src="../assets/banner/banner-child-2.png" />
+      <img src="../assets/banner/100_fot_contact.jpeg" height="300" />
     </div>
     <div class="main-wrapper">
       <div class="page-title">
@@ -18,24 +18,19 @@
       <div class="page-content">
         <div class="sub-wrapper">
           <div class="sub-info">
-            <p style="color: #00789e">Demmel AG</p>
-            <p>Gruntenweg 14. D-88175 Scheidegg Germany</p>
-            <p>Tel:+49 8381919</p>
-            <p>Fax:+49 8381919</p>
-            <p>www.demmel.de</p>
-            <p style="margin-top: 30px; color: #00789e; font-weight: bold">
+            <p style="color: #00789e; font-weight: bold">
               Demmel Metal Components (Nanjing) Co., Ltd.
             </p>
             <p>
-              No.7 Heng Tong Da Dao Nanjing Economic-Technology Development Zone
-              China,210038
+              <b style="color: #00789e">Company Address:</b> No.7 Heng Tong Da
+              Dao Nanjing Economic-Technology Development Zone China,210038
             </p>
-            <p>Tel:+86 25 85802378</p>
-            <p>Fax:+86 25 85801159</p>
-            <p>www.demmel.cn</p>
+            <p><b style="color: #00789e">Tel:</b> +86 25 85802378</p>
+            <p><b style="color: #00789e">Fax:</b> +86 25 85801159</p>
+            <a href="http://www.demmel.cn">www.demmel.cn</a>
           </div>
           <div class="sub-pic">
-            <img src="../assets/dist/company2.jpg" />
+            <baidu-map class="bm-view"></baidu-map>
           </div>
         </div>
       </div>
@@ -76,6 +71,8 @@ export default {
     left: 0;
     right: 0;
     z-index: 1;
+    display: flex;
+    justify-content: center;
   }
   .main-wrapper {
     min-height: 362px;
@@ -84,7 +81,7 @@ export default {
     position: relative;
     background-color: #fff;
     .page-title {
-      width: 1290px;
+      width: 1080px;
       margin: 0 auto;
       padding-top: 40px;
       display: flex;
@@ -102,9 +99,10 @@ export default {
       }
     }
     .page-content {
-      width: 1290px;
+      width: 1080px;
       margin: 0 auto;
       padding-top: 30px;
+      padding-bottom: 60px;
       .sub-title {
         color: #00789e;
         font-size: 18px;
@@ -112,7 +110,7 @@ export default {
       .sub-wrapper {
         overflow: hidden;
         .sub-info {
-          width: 800px;
+          width: 600px;
           float: left;
           p {
             line-height: 18px;
@@ -121,8 +119,9 @@ export default {
         .sub-pic {
           float: right;
           width: 400px;
-          img {
+          .bm-view {
             width: 400px;
+            height: 400px;
           }
         }
       }

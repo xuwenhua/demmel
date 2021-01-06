@@ -8,53 +8,55 @@
     </div>
     <div class="main-wrapper">
       <div class="page-title">
-        <div class="title">Quality</div>
+        <div class="title">Environment</div>
         <div class="page-map">
           <router-link to="/" class="link">Demmel</router-link>
           <span>»</span>
           <span>Company</span>
           <span>»</span>
-          <router-link to="/company/quality" class="link">Quality</router-link>
+          <router-link to="/company/environment" class="link"
+            >Environment</router-link
+          >
         </div>
       </div>
       <div class="page-content">
         <div class="sub-wrapper">
           <div class="sub-info">
             <p>
-              Our quality control lab is equipped with necessary measuring devices to fulfill full dimension measurement.
+              Demmel developed an environment management system for all its
+              important operating areas, and the company holds ISO14001
+              certification.
             </p>
             <p>
-              Quick inspection jigs are widely designed and used to improve  inspection efficiency and
-              measure of precision.
+              We continually improve our certifications in response to market
+              and customer demands. You can find our current environmental
+              certificates at the bottom of the website.
             </p>
             <p>
-              Setting up first piece and last piece system to verify  process stability, to meet the requirement of traceability.
+              Here’s how our Environment Management System ensures we meet our
+              environmental protection obligations:
             </p>
             <p>
-              System Audit, Process Audit, Product Audit in periodically base to keep continuously improvement on quality system.
+              Monitoring, analysis and evaluation of our environmental impact
             </p>
             <p>
-              Our test lab is equipped with the necessary test devices to monitor and verify the customer requirement to be fully satisfied.
+              Consideration of environmental impacts in the Demmel CN plants
             </p>
             <p>
-              Follow up the product quality performance actively and timely from
-              production line to customer.
+              Compliance with local and national legal requirements in the
+              Demmel CN plants
             </p>
             <p>
-              The tools of APQP/PPAP/FMEA/SPC/MSA are continuously used to meet customers' special requirement.
+              Communication and constructive cooperation internally as well as
+              externally
+            </p>
+            <p>
+              Training, education and motivation of our employees to act in an
+              eco-friendly manner.
             </p>
           </div>
           <div class="sub-pic">
-            <img src="../../assets/quality1.jpg" />
-            <img src="../../assets/quality2.jpg" />
-          </div>
-          <div class="sub-pic">
-            <img src="../../assets/quality4.jpg" />
-            <img src="../../assets/quality5.jpg" />
-          </div>
-          <div class="sub-pic">
-            <img src="../../assets/quality3.jpg" />
-            <img src="../../assets/quality6.jpg" />
+            <img src="../../assets/environment.jpg" />
           </div>
         </div>
       </div>
@@ -124,6 +126,7 @@ export default {
       width: 1080px;
       margin: 0 auto;
       padding-top: 30px;
+      padding-bottom: 60px;
       .sub-title {
         color: #00789e;
         font-size: 18px;
@@ -131,10 +134,12 @@ export default {
       .sub-wrapper {
         overflow: hidden;
         .sub-info {
+          float: left;
+          width: 800px;
           p {
             line-height: 24px;
-              word-wrap: break-word;
-              word-break: normal;
+            word-wrap: break-word;
+            word-break: normal;
           }
           ul {
             li {
@@ -151,14 +156,10 @@ export default {
           }
         }
         .sub-pic {
-          overflow: hidden;
-          margin-bottom: 10px;
+          float: right;
+          border: 2px solid #f3f3f3;
           img {
-            float: left;
-            width: 535px;
-            &:last-child {
-              float: right;
-            }
+            width: 250px;
           }
         }
       }

@@ -134,7 +134,7 @@ export default {
     position: relative;
     background-color: #fff;
     .page-title {
-      width: 1290px;
+      width: 1080px;
       margin: 0 auto;
       padding-top: 40px;
       display: flex;
@@ -152,7 +152,7 @@ export default {
       }
     }
     .page-content {
-      width: 1290px;
+      width: 1080px;
       margin: 0 auto;
       padding-top: 30px;
       .sub-title {

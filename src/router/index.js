@@ -15,7 +15,10 @@ import FoilKeypads from '@/pages/solutions/3/foilkeypads';
 import VasMetalKeypads from '@/pages/solutions/3/vasmetalkeypads';
 import CompanyHistory from '@/pages/company/companyhistory';
 import Quality from '@/pages/company/quality';
+import Environment from '@/pages/company/environment';
+import VisionValues from '@/pages/company/visionvalues';
 import Contact from '@/pages/contact';
+import Suppliers from '@/pages/suppliers';
 
 Vue.use(Router);
 
@@ -97,9 +100,24 @@ export default new Router({
       component: Quality,
     },
     {
+      path: '/company/environment',
+      name: 'Environment',
+      component: Environment,
+    },
+    {
+      path: '/company/visionvalues',
+      name: 'VisionValues',
+      component: VisionValues,
+    },
+    {
       path: '/contact',
       name: 'Contact',
       component: Contact,
+    },
+    {
+      path: '/suppliers',
+      name: 'Suppliers',
+      component: Suppliers,
     },
   ],
 });

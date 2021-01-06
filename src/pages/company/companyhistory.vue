@@ -12,6 +12,8 @@
         <div class="page-map">
           <router-link to="/" class="link">Demmel</router-link>
           <span>»</span>
+          <span>Company</span>
+          <span>»</span>
           <router-link to="/company/companyhistory" class="link"
             >Company History</router-link
           >
@@ -125,7 +127,7 @@ export default {
     position: relative;
     background-color: #fff;
     .page-title {
-      width: 1290px;
+      width: 1080px;
       margin: 0 auto;
       padding-top: 40px;
       display: flex;
@@ -143,7 +145,7 @@ export default {
       }
     }
     .page-content {
-      width: 1290px;
+      width: 1080px;
       margin: 0 auto;
       padding-top: 30px;
       .sub-title {
@@ -153,7 +155,7 @@ export default {
       .sub-wrapper {
         overflow: hidden;
         .sub-info {
-          width: 800px;
+          width: 600px;
           float: left;
           p {
             line-height: 24px;
@@ -161,7 +163,7 @@ export default {
           ul {
             li {
               line-height: 35px;
-              width: 800px;
+              width: 600px;
               word-wrap:break-word;
               word-break: normal;
               .title {

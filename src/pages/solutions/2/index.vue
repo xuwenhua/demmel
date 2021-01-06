@@ -140,7 +140,7 @@ export default {
     position: relative;
     background-color: #fff;
     .page-title {
-      width: 1290px;
+      width: 1080px;
       margin: 0 auto;
       padding-top: 40px;
       display: flex;
@@ -158,7 +158,7 @@ export default {
       }
     }
     .page-content {
-      width: 1290px;
+      width: 1080px;
       margin: 0 auto;
       padding-top: 30px;
       .sub-title {
@@ -172,7 +172,7 @@ export default {
       }
       .category-wrapper {
         margin: 0 auto;
-        width: 1290px;
+        width: 1080px;
         overflow: hidden;
         padding-top: 70px;
         margin-bottom: 100px;
@@ -185,7 +185,7 @@ export default {
           -webkit-box-shadow: 0px 0px 5px #999;
           box-shadow: 0px 0px 5px #999;
           position: relative;
-          margin-left: 177px;
+          margin-left: 78px;
           overflow: hidden;
           &:first-child {
             margin-left: 5px;

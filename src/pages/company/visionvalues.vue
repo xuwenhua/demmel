@@ -4,50 +4,42 @@
       <NavBar />
     </div>
     <div class="banner-wrapper">
-      <img src="../assets/banner/banner-child-3.jpg" />
+      <img src="../../assets/banner/banner-child-3.jpg" />
     </div>
     <div class="main-wrapper">
       <div class="page-title">
-        <div class="title">Company</div>
+        <div class="title">Vision & Values</div>
         <div class="page-map">
           <router-link to="/" class="link">Demmel</router-link>
           <span>»</span>
-          <router-link to="/company/1" class="link"
-            >Company History</router-link
-          >
+          <span>Company</span>
+          <span>»</span>
+          <router-link to="/company/visionvalues" class="link">Vision & Values</router-link>
         </div>
       </div>
       <div class="page-content">
-        <div class="sub-title">Facts of DMCC</div>
         <div class="sub-wrapper">
           <div class="sub-info">
             <p>
-              DMCC is committed to develop, manufacture and supply high-end
-              metal parts and assemblies to the selected industrial customers in
-              mechanics, electronics, and automotive industry.
+              <b style="color:#00789e">Personal</b>, for human contact is the basis for every business relation, not only for internal DMCC but also for all external relations.
             </p>
             <p>
-              With many years of experiences in metal work and close
-              co-operation with the world famous companies, DMCC becomes a
-              reliable world–wide supplier with product development,
-              manufacturing, sales and service.
+              <b style="color:#00789e">Commitment</b>, for proving the best and constant  performance, not only in goods but also in service.
             </p>
-            <ul>
-              <li>First founded as Matino in 2001</li>
-              <li>Land -24,932 m2; factory building -14,261 m2</li>
-              <li>Demmel took over Matino-Nanjing since Dec. 1, 2008</li>
-              <li>Sales in 2018: RMB 47mil，target for 2019: RMB 49 mil.</li>
-              <li>
-                Core business: metal parts and assembly production, Employees:75
-              </li>
-              <li>
-                Customer: Mainly in Europe , North America and China, export
-                over 60%
-              </li>
-            </ul>
+            <p>
+              <b style="color:#00789e">Excellence</b>, for surpassing customersi expectations and always being open to their needs and further improvement.
+            </p>
+            <p>
+              <b style="color:#00789e">Visionary</b>, for setting high business and environmental standards, granting a global support to our customers and helping to visualise their ideas.
+            </p>
           </div>
           <div class="sub-pic">
-            <img src="../assets/dist/company.jpg" />
+            <img src="../../assets/visionvalues1.jpg" />
+            <img src="../../assets/visionvalues2.jpg" />
+          </div>
+          <div class="sub-pic">
+            <img src="../../assets/visionvalues3.jpg" />
+            <img src="../../assets/visionvalues4.jpg" />
           </div>
         </div>
       </div>
@@ -63,7 +55,7 @@
 import NavBar from '@/components/NavBar'
 
 export default {
-  name: 'Solutions',
+  name: 'CompanyHistory',
   components: { NavBar },
   data() {
     return {}
@@ -96,7 +88,7 @@ export default {
     position: relative;
     background-color: #fff;
     .page-title {
-      width: 1290px;
+      width: 1080px;
       margin: 0 auto;
       padding-top: 40px;
       display: flex;
@@ -114,7 +106,7 @@ export default {
       }
     }
     .page-content {
-      width: 1290px;
+      width: 1080px;
       margin: 0 auto;
       padding-top: 30px;
       .sub-title {
@@ -124,22 +116,34 @@ export default {
       .sub-wrapper {
         overflow: hidden;
         .sub-info {
-          width: 800px;
-          float: left;
           p {
             line-height: 24px;
+              word-wrap: break-word;
+              word-break: normal;
           }
           ul {
             li {
-              line-height: 25px;
+              line-height: 35px;
+              width: 800px;
+              word-wrap: break-word;
+              word-break: normal;
+              .title {
+                color: #00789e;
+                padding-right: 10px;
+                font-weight: bold;
+              }
             }
           }
         }
         .sub-pic {
-          float: right;
-          width: 400px;
+          overflow: hidden;
+          margin-bottom: 10px;
           img {
-            width: 400px;
+            float: left;
+            width: 535px;
+            &:last-child {
+              float: right;
+            }
           }
         }
       }
