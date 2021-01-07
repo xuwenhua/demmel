@@ -32,33 +32,36 @@
           <div class="item">
             <div class="title">AUTOMOTIVE</div>
             <div class="sub-category-wrapper">
-              <div class="sub">EMBLEMS</div>
-              <div class="sub">ENZTRY SILLS</div>
+              <div class="sub" @click="handleUrl('/solutions/1/emblems')">EMBLEMS</div>
+              <div class="sub" @click="handleUrl('/solutions/1/enztrysills')">ENZTRY SILLS</div>
             </div>
             <div class="img">
               <img src="../assets/dist/item1.jpg" />
             </div>
+            <div class="btn" @click="handleUrl('/solutions/1/index')">READ MORE</div>
           </div>
           <div class="item">
             <div class="title">METAL PARTS</div>
             <div class="sub-category-wrapper">
-              <div class="sub">BRACKETS</div>
-              <div class="sub">PROFILES</div>
-              <div class="sub">BURNER FRAME</div>
+              <div class="sub" @click="handleUrl('/solutions/2/brackets')">BRACKETS</div>
+              <div class="sub" @click="handleUrl('/solutions/2/profiles')">PROFILES</div>
+              <div class="sub" @click="handleUrl('/solutions/1/burnerframe')">BURNER FRAME</div>
             </div>
             <div class="img">
               <img src="../assets/dist/item3.jpg" />
             </div>
+            <div class="btn" style="color:#00789e;" @click="handleUrl('/solutions/2/index')">READ MORE</div>
           </div>
           <div class="item">
             <div class="title">HMI</div>
             <div class="sub-category-wrapper">
-              <div class="sub">VAS METAL KEYPADS</div>
-              <div class="sub">FOIL KEYPADS</div>
+              <div class="sub" @click="handleUrl('/solutions/3/vasmetalkeypads')">VAS METAL KEYPADS</div>
+              <div class="sub" @click="handleUrl('/solutions/3/foilkeypads')">FOIL KEYPADS</div>
             </div>
             <div class="img">
               <img src="../assets/dist/item2.jpg" />
             </div>
+            <div class="btn" @click="handleUrl('/solutions/3/index')">READ MORE</div>
           </div>
         </div>
       </div>
@@ -79,6 +82,13 @@ export default {
   data() {
     return {}
   },
+  methods: {
+    handleUrl(url) {
+      if (url) {
+        this.$router.push(url)
+      }
+    },
+  }
 }
 </script>
 
@@ -86,6 +96,7 @@ export default {
 <style lang="scss" scoped>
 .content {
   position: relative;
+  overflow: hidden;
   .nav-bar-wrapper {
     position: fixed;
     top: 0;
@@ -157,11 +168,37 @@ export default {
           &:first-child {
             margin-left: 5px;
           }
+          .btn {
+            border: 3px solid #00789e;
+            position: absolute;
+            padding: 5px 0;
+            width: 120px;
+            color: #fff;
+            text-align: center;
+            top: 70%;
+            left: 50%;
+            margin-left: -60px;
+            cursor: pointer;
+            display: none;
+            animation-name: zoomIn;
+            animation-duration: 1s;
+          }
           &:hover {
             .sub-category-wrapper {
               display: block;
               animation-name: bounceIn;
               animation-duration: 1s;
+              .remark {
+                padding: 0 20px;
+                line-height: 30px;
+                .remark-title {
+                  color: #00789e;
+                  font-size: 14px;
+                }
+              }
+            }
+            .btn {
+              display: block;
             }
           }
           .title {

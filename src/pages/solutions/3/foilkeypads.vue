@@ -56,6 +56,7 @@ export default {
 <style lang="scss" scoped>
 .content {
   position: relative;
+  overflow: hidden;
   .nav-bar-wrapper {
     position: fixed;
     top: 0;

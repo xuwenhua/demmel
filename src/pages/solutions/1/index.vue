@@ -3,8 +3,7 @@
     <div class="nav-bar-wrapper">
       <NavBar />
     </div>
-    <div class="banner-wrapper">
-      <img src="../../../assets/banner/banner-child-1.png" />
+    <div class="banner-wrapper" :style="{backgroundImage:'url('+bannerImg+')'}">
     </div>
     <div class="main-wrapper">
       <div class="page-title">
@@ -84,7 +83,9 @@ export default {
   name: 'SolutionsAutoMotive',
   components: { NavBar },
   data() {
-    return {}
+    return {
+      bannerImg: require('../../../assets/banner/100_fot_bmw_sw.jpeg')
+    }
   },
   methods: {
     handleUrl(url) {
@@ -100,6 +101,7 @@ export default {
 <style lang="scss" scoped>
 .content {
   position: relative;
+  overflow: hidden;
   .nav-bar-wrapper {
     position: fixed;
     top: 0;
@@ -113,10 +115,16 @@ export default {
     left: 0;
     right: 0;
     z-index: 1;
+    height: 300px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position-y: 48% !important;
+    background-blend-mode: soft-light;
+    background-color: #3c3c3b;
   }
   .main-wrapper {
     min-height: 362px;
-    margin-top: 362px;
+    margin-top: 400px;
     z-index: 2;
     position: relative;
     background-color: #fff;

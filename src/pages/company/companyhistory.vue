@@ -29,7 +29,7 @@
               </li>
               <li>
                 <span class="title">2018</span
-                >3800㎡ new factory building was completed and put into operation. 
+                >3800㎡ new factory building was completed and put into operation.
               </li>
               <li>
                 <span class="title">2017</span
@@ -73,7 +73,7 @@
               </li>
               <li>
                 <span class="title">1997</span
-                >The company was first founded as Nanjing Excellent by a Taiwanese investor, a metal part supplier for colour picture tube makers. 
+                >The company was first founded as Nanjing Excellent by a Taiwanese investor, a metal part supplier for colour picture tube makers.
               </li>
             </ul>
           </div>
@@ -106,6 +106,7 @@ export default {
 <style lang="scss" scoped>
 .content {
   position: relative;
+  overflow: hidden;
   .nav-bar-wrapper {
     position: fixed;
     top: 0;
