@@ -4,7 +4,7 @@
       <NavBar />
     </div>
     <div class="banner-wrapper">
-      <img src="../assets/banner/100_fot_contract.jpeg" height="300" />
+      <img src="../assets/banner/100_fot_contract.jpeg" />
     </div>
     <div class="main-wrapper">
       <div class="page-title">

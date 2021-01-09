@@ -4,7 +4,7 @@
       <NavBar />
     </div>
     <div class="banner-wrapper">
-      <img src="../assets/banner/100_fot_contact.jpeg" height="300" />
+      <img src="../assets/banner/100_fot_contact.jpeg" />
     </div>
     <div class="main-wrapper">
       <div class="page-title">
@@ -30,7 +30,24 @@
             <a href="http://www.demmel.cn">www.demmel.cn</a>
           </div>
           <div class="sub-pic">
-            <baidu-map class="bm-view"></baidu-map>
+            <baidu-map
+              class="bm-view"
+              :center="location"
+              :scroll-wheel-zoom="true"
+              :zoom="zoom"
+            >
+              <bm-marker
+                :position="{ lng: 118.86895, lat: 32.151562 }"
+                :dragging="true"
+                animation="BMAP_ANIMATION_BOUNCE"
+              >
+                <bm-label
+                  content="Demmel Metal Components (Nanjing) Co., Ltd, China"
+                  :labelStyle="{ color: 'red', fontSize: '16px' }"
+                  :offset="{ width: -165, height: 30 }"
+                />
+              </bm-marker>
+            </baidu-map>
           </div>
         </div>
       </div>
@@ -49,7 +66,13 @@ export default {
   name: 'Solutions',
   components: { NavBar },
   data() {
-    return {}
+    return {
+      location: {
+        lng: 118.86895,
+        lat: 32.151562,
+      },
+      zoom: 14,
+    }
   },
 }
 </script>
@@ -110,7 +133,7 @@ export default {
       .sub-wrapper {
         overflow: hidden;
         .sub-info {
-          width: 600px;
+          width: 580px;
           float: left;
           p {
             line-height: 18px;
@@ -118,9 +141,9 @@ export default {
         }
         .sub-pic {
           float: right;
-          width: 400px;
+          width: 500px;
           .bm-view {
-            width: 400px;
+            width: 500px;
             height: 400px;
           }
         }
