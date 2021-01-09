@@ -36,8 +36,6 @@
           <div class="sub-pic">
             <img src="../../assets/visionvalues1.jpg" />
             <img src="../../assets/visionvalues2.jpg" />
-          </div>
-          <div class="sub-pic">
             <img src="../../assets/visionvalues3.jpg" />
             <img src="../../assets/visionvalues4.jpg" />
           </div>
@@ -67,6 +65,7 @@ export default {
 <style lang="scss" scoped>
 .content {
   position: relative;
+  overflow: hidden;
   .nav-bar-wrapper {
     position: fixed;
     top: 0;
@@ -138,12 +137,10 @@ export default {
         .sub-pic {
           overflow: hidden;
           margin-bottom: 10px;
+          display: flex;
+          justify-content: space-between;
           img {
-            float: left;
-            width: 535px;
-            &:last-child {
-              float: right;
-            }
+            width: 260px;
           }
         }
       }

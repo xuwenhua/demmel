@@ -55,6 +55,7 @@ export default {
 <style lang="scss" scoped>
 .content {
   position: relative;
+  overflow: hidden;
   .nav-bar-wrapper {
     position: fixed;
     top: 0;
@@ -70,10 +71,11 @@ export default {
     z-index: 1;
     display: flex;
     justify-content: center;
+    height: 300px;
   }
   .main-wrapper {
     min-height: 362px;
-    margin-top: 362px;
+    margin-top: 400px;
     z-index: 2;
     position: relative;
     background-color: #fff;
