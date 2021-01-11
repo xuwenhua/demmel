@@ -128,8 +128,8 @@ export default {
     z-index: 1;
   }
   .main-wrapper {
-    min-height: 900px;
-    margin-top: 1010px;
+    margin-top: 800px;
+    padding-bottom: 140px;
     z-index: 2;
     position: relative;
     background-color: #fff;

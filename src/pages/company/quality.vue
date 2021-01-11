@@ -3,9 +3,7 @@
     <div class="nav-bar-wrapper">
       <NavBar />
     </div>
-    <div class="banner-wrapper">
-      <img src="../../assets/banner/banner-child-3.jpg" />
-    </div>
+    <div class="banner-wrapper" :style="{backgroundImage:'url('+bannerImg+')'}"></div>
     <div class="main-wrapper">
       <div class="page-title">
         <div class="title">Quality</div>
@@ -44,17 +42,21 @@
               The tools of APQP/PPAP/FMEA/SPC/MSA are continuously used to meet customers' special requirement.
             </p>
           </div>
-          <div class="sub-pic">
-            <img src="../../assets/quality1.jpg" />
-            <img src="../../assets/quality2.jpg" />
-          </div>
-          <div class="sub-pic">
-            <img src="../../assets/quality4.jpg" />
-            <img src="../../assets/quality5.jpg" />
-          </div>
-          <div class="sub-pic">
-            <img src="../../assets/quality3.jpg" />
-            <img src="../../assets/quality6.jpg" />
+          <div style="overflow:hidden;">
+            <div class="sub-pic" style="width:51%;float:left;">
+              <div style="padding-bottom: 10px;overflow:hidden;">
+                <img src="../../assets/quality1.jpg" />
+                <img src="../../assets/quality2.jpg" />
+              </div>
+              <div style="padding-bottom: 10px;overflow:hidden;">
+                <img src="../../assets/quality3.jpg" />
+                <img src="../../assets/quality6.jpg" />
+              </div>
+            </div>
+            <div class="sub-pic" style="width:46%;margin-left: 10px;float:left;">
+              <img src="../../assets/quality4.jpg" />
+              <img src="../../assets/quality5.jpg" />
+            </div>
           </div>
         </div>
       </div>
@@ -73,7 +75,9 @@ export default {
   name: 'CompanyHistory',
   components: { NavBar },
   data() {
-    return {}
+    return {
+      bannerImg: require('../../assets/banner/100_own_building_plant1.jpeg')
+    }
   },
 }
 </script>
@@ -96,6 +100,12 @@ export default {
     left: 0;
     right: 0;
     z-index: 1;
+    height: 300px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position-y: 48% !important;
+    background-blend-mode: soft-light;
+    background-color: #3c3c3b;
   }
   .main-wrapper {
     min-height: 362px;
@@ -156,7 +166,7 @@ export default {
           margin-bottom: 10px;
           img {
             float: left;
-            width: 535px;
+            width: 49%;
             &:last-child {
               float: right;
             }

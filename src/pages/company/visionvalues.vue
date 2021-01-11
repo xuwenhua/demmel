@@ -3,9 +3,7 @@
     <div class="nav-bar-wrapper">
       <NavBar />
     </div>
-    <div class="banner-wrapper">
-      <img src="../../assets/banner/banner-child-3.jpg" />
-    </div>
+    <div class="banner-wrapper" :style="{backgroundImage:'url('+bannerImg+')'}"></div>
     <div class="main-wrapper">
       <div class="page-title">
         <div class="title">Vision & Values</div>
@@ -56,7 +54,9 @@ export default {
   name: 'CompanyHistory',
   components: { NavBar },
   data() {
-    return {}
+    return {
+      bannerImg: require('../../assets/banner/100_own_building_plant1.jpeg')
+    }
   },
 }
 </script>
@@ -79,6 +79,12 @@ export default {
     left: 0;
     right: 0;
     z-index: 1;
+    height: 300px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position-y: 48% !important;
+    background-blend-mode: soft-light;
+    background-color: #3c3c3b;
   }
   .main-wrapper {
     min-height: 362px;

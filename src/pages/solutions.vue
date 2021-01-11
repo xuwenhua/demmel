@@ -33,7 +33,7 @@
             <div class="title">AUTOMOTIVE</div>
             <div class="sub-category-wrapper">
               <div class="sub" @click="handleUrl('/solutions/1/emblems')">EMBLEMS</div>
-              <div class="sub" @click="handleUrl('/solutions/1/enztrysills')">ENZTRY SILLS</div>
+              <div class="sub" @click="handleUrl('/solutions/1/entrysills')">ENZTRY SILLS</div>
             </div>
             <div class="img">
               <img src="../assets/dist/item1.jpg" />
@@ -45,7 +45,7 @@
             <div class="sub-category-wrapper">
               <div class="sub" @click="handleUrl('/solutions/2/brackets')">BRACKETS</div>
               <div class="sub" @click="handleUrl('/solutions/2/profiles')">PROFILES</div>
-              <div class="sub" @click="handleUrl('/solutions/1/burnerframe')">BURNER FRAME</div>
+              <div class="sub" @click="handleUrl('/solutions/2/burnerframe')">BURNER FRAME</div>
             </div>
             <div class="img">
               <img src="../assets/dist/item3.jpg" />

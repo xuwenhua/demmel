@@ -56,6 +56,7 @@ export default {
 .content {
   position: relative;
   overflow: hidden;
+  height: calc(100vh - 60px);
   .nav-bar-wrapper {
     position: fixed;
     top: 0;

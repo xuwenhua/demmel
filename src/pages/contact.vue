@@ -3,9 +3,7 @@
     <div class="nav-bar-wrapper">
       <NavBar />
     </div>
-    <div class="banner-wrapper">
-      <img src="../assets/banner/100_fot_contact.jpeg" />
-    </div>
+    <div class="banner-wrapper" :style="{backgroundImage:'url('+bannerImg+')'}"></div>
     <div class="main-wrapper">
       <div class="page-title">
         <div class="title">Contact</div>
@@ -72,6 +70,7 @@ export default {
         lat: 32.151562,
       },
       zoom: 14,
+      bannerImg: require('../assets/banner/100_fot_contact.jpeg')
     }
   },
 }
@@ -95,8 +94,12 @@ export default {
     left: 0;
     right: 0;
     z-index: 1;
-    display: flex;
-    justify-content: center;
+    height: 300px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position-y: 48% !important;
+    background-blend-mode: soft-light;
+    background-color: #3c3c3b;
   }
   .main-wrapper {
     min-height: 362px;
