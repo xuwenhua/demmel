@@ -36,10 +36,20 @@
             solutions, we create new standards in implementing your wishes.
           </p>
         </div>
+        <div class="product-list">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide"
+              v-for="(item, index) in bannerList"
+              :key="index"
+            >
+              <img :src="item.url" />
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
       </div>
-    </div>
-    <div class="footer-wrapper">
-      <Footer />
     </div>
   </div>
 </template>
@@ -47,15 +57,46 @@
 <script>
 /* eslint-disable */
 import NavBar from '@/components/NavBar'
+import Swiper from 'swiper'
+import 'swiper/dist/css/swiper.min.css'
 
 export default {
   name: 'SolutionsAutoMotive',
   components: { NavBar },
   data() {
     return {
-      bannerImg: require('../../../assets/banner/100_own_einstiegsleiste_vw_offroad.jpeg')
+      bannerImg: require('../../../assets/banner/100_own_einstiegsleiste_vw_offroad.jpeg'),
+      bannerList: [
+        {
+          url: require('../../../assets/p_2_8.jpg')
+        },
+        {
+          url: require('../../../assets/p_2_9.jpg')
+        },
+        {
+          url: require('../../../assets/p_2_10.jpg')
+        },
+        {
+          url: require('../../../assets/p_2_11.jpg')
+        },
+        {
+          url: require('../../../assets/p_2_12.jpg')
+        },
+        {
+          url: require('../../../assets/p_2_13.jpg')
+        },
+      ],
     }
   },
+  mounted() {
+    Swiper('.product-list', {
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      slidesPerView: 4,
+      spaceBetween: 30,
+      loop: true
+    })
+  }
 }
 </script>
 
@@ -64,7 +105,6 @@ export default {
 .content {
   position: relative;
   overflow: hidden;
-  height: calc(100vh - 60px);
   .nav-bar-wrapper {
     position: fixed;
     top: 0;

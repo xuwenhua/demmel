@@ -34,10 +34,20 @@
             series.
           </p>
         </div>
+        <div class="product-list">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide"
+              v-for="(item, index) in bannerList"
+              :key="index"
+            >
+              <img :src="item.url" />
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
       </div>
-    </div>
-    <div class="footer-wrapper">
-      <Footer />
     </div>
   </div>
 </template>
@@ -45,13 +55,34 @@
 <script>
 /* eslint-disable */
 import NavBar from '@/components/NavBar'
+import Swiper from 'swiper'
+import 'swiper/dist/css/swiper.min.css'
 
 export default {
   name: 'SolutionsAutoMotive',
   components: { NavBar },
   data() {
-    return {}
+    return {
+      bannerList: [
+        {
+          url: require('../../../assets/p_3_6.jpg')
+        },
+        {
+          url: require('../../../assets/p_3_7.jpg')
+        },
+        {
+          url: require('../../../assets/p_3_8.jpg')
+        },
+      ],
+    }
   },
+  mounted() {
+    Swiper('.product-list', {
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      slidesPerView: 4,
+    })
+  }
 }
 </script>
 
@@ -60,7 +91,6 @@ export default {
 .content {
   position: relative;
   overflow: hidden;
-  height: calc(100vh - 60px);
   .nav-bar-wrapper {
     position: fixed;
     top: 0;

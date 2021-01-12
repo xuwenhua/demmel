@@ -17,7 +17,7 @@ export default {
 }
 </script>
 
-<style>
+<style lang="scss">
 @import url('styles/normalize.css');
 html,
 body {
@@ -49,5 +49,27 @@ body {
   left: 0;
   right: 0;
   z-index: 9999;
+}
+.product-list {
+  height: 230px;
+  position: relative;
+  padding-top: 20px;
+  overflow: hidden;
+  .swiper-wrapper {
+    .swiper-slide {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      overflow: hidden;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+  .swiper-button-prev {
+    left: 0px;
+  }
+  .swiper-button-next {
+    right: 0px;
+  }
 }
 </style>

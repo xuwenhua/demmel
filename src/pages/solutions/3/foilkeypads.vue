@@ -29,6 +29,19 @@
             integration of touchscreens – our keypads are state-of-the-art.
           </p>
         </div>
+        <div class="product-list">
+          <div class="swiper-wrapper">
+            <div
+              class="swiper-slide"
+              v-for="(item, index) in bannerList"
+              :key="index"
+            >
+              <img :src="item.url" />
+            </div>
+          </div>
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
       </div>
     </div>
   </div>
@@ -43,9 +56,24 @@ export default {
   components: { NavBar },
   data() {
     return {
-      bannerImg: require('../../../assets/banner/tastatur-2.jpeg')
+      bannerImg: require('../../../assets/banner/tastatur-2.jpeg'),
+      bannerList: [
+        {
+          url: require('../../../assets/p_1_2.jpg')
+        },
+        {
+          url: require('../../../assets/p_1_3.jpg')
+        },
+      ],
     }
   },
+  mounted() {
+    Swiper('.product-list', {
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      slidesPerView: 4,
+    })
+  }
 }
 </script>
 
@@ -54,7 +82,6 @@ export default {
 .content {
   position: relative;
   overflow: hidden;
-  height: calc(100vh - 60px);
   .nav-bar-wrapper {
     position: fixed;
     top: 0;
