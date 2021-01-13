@@ -25,7 +25,7 @@
               <b style="color:#00789e">Commitment</b>, for proving the best and constant  performance, not only in goods but also in service.
             </p>
             <p>
-              <b style="color:#00789e">Excellence</b>, for surpassing customersi expectations and always being open to their needs and further improvement.
+              <b style="color:#00789e">Excellence</b>, for surpassing customers' expectations and always being open to their needs and further improvement.
             </p>
             <p>
               <b style="color:#00789e">Visionary</b>, for setting high business and environmental standards, granting a global support to our customers and helping to visualise their ideas.

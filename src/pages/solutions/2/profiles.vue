@@ -73,6 +73,12 @@ export default {
         {
           url: require('../../../assets/p_3_8.jpg')
         },
+        {
+          url: require('../../../assets/p_2_17.jpg')
+        },
+        {
+          url: require('../../../assets/p_2_18.jpg')
+        },
       ],
     }
   },
