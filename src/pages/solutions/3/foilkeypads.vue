@@ -71,7 +71,7 @@ export default {
           url: require('../../../assets/p_3_12.jpg')
         },
         {
-          url: require('../../../assets/p_3_13.jpg')
+          url: require('../../../assets/p_1_5.jpg')
         },
       ],
     }
@@ -81,6 +81,8 @@ export default {
       nextButton: '.swiper-button-next',
       prevButton: '.swiper-button-prev',
       slidesPerView: 4,
+      spaceBetween: 30,
+      loop: true
     })
   }
 }

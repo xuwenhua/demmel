@@ -64,14 +64,14 @@
     </div>
     <div class="right-wrapper">
       <div class="lang">
-        <img src="../assets/zh.png" />
+        <img src="../assets/en.png" />
       </div>
-      <div class="search-wrapper">
+      <!-- <div class="search-wrapper">
         <input type="text" class="keyword" placeholder="Search" />
         <div class="btn">
           <img src="../assets/search.png" />
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -400,6 +400,7 @@ export default {
     position: relative;
     overflow: hidden;
     width: 247px;
+    text-align: right;
     .lang {
       width: 45px;
       height: 30px;

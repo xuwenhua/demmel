@@ -17,30 +17,35 @@
       </div>
       <div class="page-content">
         <div class="sub-wrapper">
-          <div class="sub-info">
-            <p>
-              Our quality control lab is equipped with necessary measuring devices to fulfill full dimension measurement.
-            </p>
-            <p>
-              Quick inspection jigs are widely designed and used to improve  inspection efficiency and
-              measure of precision.
-            </p>
-            <p>
-              Setting up first piece and last piece system to verify  process stability, to meet the requirement of traceability.
-            </p>
-            <p>
-              System Audit, Process Audit, Product Audit in periodically base to keep continuously improvement on quality system.
-            </p>
-            <p>
-              Our test lab is equipped with the necessary test devices to monitor and verify the customer requirement to be fully satisfied.
-            </p>
-            <p>
-              Follow up the product quality performance actively and timely from
-              production line to customer.
-            </p>
-            <p>
-              The tools of APQP/PPAP/FMEA/SPC/MSA are continuously used to meet customers' special requirement.
-            </p>
+          <div style="overflow:hidden">
+            <div class="sub-info" style="float:left;width: 700px;">
+              <p>
+                Our quality control lab is equipped with necessary measuring devices to fulfill full dimension measurement.
+              </p>
+              <p>
+                Quick inspection jigs are widely designed and used to improve  inspection efficiency and
+                measure of precision.
+              </p>
+              <p>
+                Setting up first piece and last piece system to verify  process stability, to meet the <br/>requirement of traceability.
+              </p>
+              <p>
+                System Audit, Process Audit, Product Audit in periodically base to keep continuously <br/>improvement on quality system.
+              </p>
+              <p>
+                Our test lab is equipped with the necessary test devices to monitor and verify the customer <br/>requirement to be fully satisfied.
+              </p>
+              <p>
+                Follow up the product quality performance actively and timely from
+                production line to customer.
+              </p>
+              <p>
+                The tools of APQP/PPAP/FMEA/SPC/MSA are continuously used to meet customers' special requirement.
+              </p>
+            </div>
+            <div style="float:right;width:310px;">
+              <img src="../../assets/quality.jpg" style="width: 310px;">
+            </div>
           </div>
           <div style="overflow:hidden;">
             <div class="sub-pic" style="width:51%;float:left;">

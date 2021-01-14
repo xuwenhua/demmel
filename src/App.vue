@@ -23,6 +23,7 @@ html,
 body {
   height: 100%;
   font-family: 'Fira Sans', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
 #app {
   height: 100%;

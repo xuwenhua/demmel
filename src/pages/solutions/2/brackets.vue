@@ -87,6 +87,7 @@ export default {
       nextButton: '.swiper-button-next',
       prevButton: '.swiper-button-prev',
       slidesPerView: 4,
+      spaceBetween: 30,
       loop: true
     })
   }

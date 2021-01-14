@@ -3,7 +3,10 @@
     <div class="nav-bar-wrapper">
       <NavBar />
     </div>
-    <div class="banner-wrapper" :style="{backgroundImage:'url('+bannerImg+')'}"></div>
+    <div
+      class="banner-wrapper"
+      :style="{ backgroundImage: 'url(' + bannerImg + ')' }"
+    ></div>
     <div class="main-wrapper">
       <div class="page-title">
         <div class="title">Company History</div>
@@ -21,7 +24,7 @@
         <div class="sub-wrapper">
           <div class="sub-info">
             <ul>
-              <li>
+              <li style="width: 629px;">
                 <span class="title">2020</span
                 >Over 300 metal parts for automotive industry and other applications in supply to Europe, North America and China.
               </li>
@@ -33,11 +36,11 @@
                 <span class="title">2017</span
                 >IATF 16949 certified by Bureau Veritas and being renewed ever since.
               </li>
-              <li>
+              <li style="width: 629px;">
                 <span class="title">2015</span
                 >First emblem was supplied to VW, brought the company into Tier 1 supplier.
               </li>
-              <li>
+              <li style="width: 624px;">
                 <span class="title">2014</span
                 >Passed ISO14001 Environmental Management System certification and being renewed ever since.
               </li>
@@ -53,7 +56,7 @@
                 <span class="title">2009</span
                 >Metal Keyboard assembly introduced into the company.
               </li>
-              <li>
+              <li style="width: 629px;">
                 <span class="title">2008</span
                 >The company was taken over 100% by Demmel Group, Germany and changed name into DMCC.
               </li>
@@ -61,7 +64,7 @@
                 <span class="title">2008</span
                 >TS 16949 certified by Bureau Veritas and being renewed ever since.
               </li>
-              <li>
+              <li style="width: 633px;">
                 <span class="title">2006</span
                 >First metal part for automotive industry was nominated by BOS, Germany.
               </li>
@@ -69,7 +72,7 @@
                 <span class="title">2001</span
                 > The company was 100% taken over by Matino AG, Germany.
               </li>
-              <li>
+              <li style="width: 629px;">
                 <span class="title">1997</span
                 >The company was first founded as Nanjing Excellent by a Taiwanese investor, a metal part supplier for colour picture tube makers.
               </li>
@@ -96,7 +99,7 @@ export default {
   components: { NavBar },
   data() {
     return {
-      bannerImg: require('../../assets/banner/100_own_building_plant1.jpeg')
+      bannerImg: require('../../assets/banner/100_own_building_plant1.jpeg'),
     }
   },
 }
@@ -169,10 +172,14 @@ export default {
           }
           ul {
             li {
+              display: block;
               line-height: 35px;
               width: 600px;
-              word-wrap:break-word;
-              word-break: normal;
+              white-space: normal;
+              word-break: keep-all;
+              word-wrap: break-word;
+              text-align: justify;
+              text-justify: inter-ideograph;
               .title {
                 color: #00789e;
                 padding-right: 10px;

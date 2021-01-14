@@ -75,6 +75,14 @@
               decision-making and short response times to changing requirements
               fits our standards and work style.
             </p>
+            <div style="overflow:hidden">
+              <div style="float:left;width:500px;border:2px solid #f3f3f3;">
+                <img src="../assets/suppliers1.jpg" width="500px;">
+              </div>
+              <div style="float:right;width:500px;border:2px solid #f3f3f3;">
+                <img src="../assets/suppliers2.jpg" width="500px;">
+              </div>
+            </div>
           </div>
         </div>
       </div>
