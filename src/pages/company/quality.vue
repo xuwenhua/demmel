@@ -20,27 +20,27 @@
           <div style="overflow:hidden">
             <div class="sub-info" style="float:left;width: 700px;">
               <p>
-                Our quality control lab is equipped with necessary measuring devices to fulfill full dimension measurement.
+                Our quality control lab is equipped with necessary measuring devices to fulfill full dimension measurement.
               </p>
               <p>
-                Quick inspection jigs are widely designed and used to improve  inspection efficiency and
+                Quick inspection jigs are widely designed and used to improve  inspection efficiency and
                 measure of precision.
               </p>
               <p>
-                Setting up first piece and last piece system to verify  process stability, to meet the <br/>requirement of traceability.
+                Setting up first piece and last piece system to verify  process stability, to meet the <br/>requirement of traceability.
               </p>
               <p>
-                System Audit, Process Audit, Product Audit in periodically base to keep continuously <br/>improvement on quality system.
+                System Audit, Process Audit, Product Audit in periodically base to keep continuously <br/>improvement on quality system.
               </p>
               <p>
-                Our test lab is equipped with the necessary test devices to monitor and verify the customer <br/>requirement to be fully satisfied.
+                Our test lab is equipped with the necessary test devices to monitor and verify the customer <br/>requirement to be fully satisfied.
               </p>
               <p>
-                Follow up the product quality performance actively and timely from
+                Follow up the product quality performance actively and timely from
                 production line to customer.
               </p>
               <p>
-                The tools of APQP/PPAP/FMEA/SPC/MSA are continuously used to meet customers' special requirement.
+                The tools of APQP/PPAP/FMEA/SPC/MSA are continuously used to meet customers' special requirement.
               </p>
             </div>
             <div style="float:right;width:310px;">
@@ -81,7 +81,7 @@ export default {
   components: { NavBar },
   data() {
     return {
-      bannerImg: require('../../assets/banner/100_own_building_plant1.jpeg')
+      bannerImg: require('../../assets/banner/100_own_building_plant1.jpg')
     }
   },
 }

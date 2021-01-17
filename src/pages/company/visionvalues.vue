@@ -55,7 +55,7 @@ export default {
   components: { NavBar },
   data() {
     return {
-      bannerImg: require('../../assets/banner/100_own_building_plant1.jpeg')
+      bannerImg: require('../../assets/banner/100_own_building_plant1.jpg')
     }
   },
 }
@@ -111,7 +111,7 @@ export default {
       }
     }
     .page-content {
-      width: 1080px;
+      width: 1090px;
       margin: 0 auto;
       padding-top: 30px;
       .sub-title {

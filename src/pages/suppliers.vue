@@ -40,34 +40,41 @@
               directly with us in an uncomplicated and fast manner. We look
               forward to communicating with you.
             </p>
-            <p>Our general range of requirement includes:</p>
-            <p>
-              <b style="color: #00789e">Raw material:</b> Carbon steel (CRS &
-              HRS), Stainless steel, Aluminium and Granules
-            </p>
-            <p>
-              <b style="color: #00789e">Purchased part:</b> Welding nut, Screw
-              nut, Rivet nut, circuit board, Rubber and PCB
-            </p>
-            <p>
-              <b style="color: #00789e">Surface treatment:</b> KTL, Zinc,
-              Powder, ZnNi, ZnFe, Znic Flake
-            </p>
-            <p>
-              <b style="color: #00789e">Tooling:</b> metal tooling, plastic
-              tooling, inspection gauge, fixture
-            </p>
-            <p>
-              <b style="color: #00789e">Others:</b> Packaging materials,
-              protective materials
-            </p>
+            <div style="overflow:hidden;">
+              <div style="float: left;width: 620px;">
+                <p style="margin-top: 0;">Our general range of requirement includes:</p>
+                <p>
+                  <b style="color: #00789e">Raw material:</b> Carbon steel (CRS &
+                  HRS), Stainless steel, Aluminium and Granules
+                </p>
+                <p>
+                  <b style="color: #00789e">Purchased part:</b> Welding nut, Screw
+                  nut, Rivet nut, circuit board, Rubber and PCB
+                </p>
+                <p>
+                  <b style="color: #00789e">Surface treatment:</b> KTL, Zinc,
+                  Powder, ZnNi, ZnFe, Znic Flake
+                </p>
+                <p>
+                  <b style="color: #00789e">Tooling:</b> metal tooling, plastic
+                  tooling, inspection gauge, fixture
+                </p>
+                <p style="margin-bottom: 0;">
+                  <b style="color: #00789e">Others:</b> Packaging materials,
+                  protective materials
+                </p>
+              </div>
+              <div style="float:left;margin-left:80px;width:320px;">
+                <img src="../assets/suppliers-img.jpg" width="320">
+              </div>
+            </div>
             <p>
               We expect proven competence in their business area and a reliable
               quality from our partner. The certification according to ISO 9001,
               IATF16949, ISO14001, and also EMAS etc. is ideal. However, we also
               accept comparable own quality assurance programs.
             </p>
-            <p>
+            <p style="margin-bottom: 80px;">
               Other important evaluation criteria are best delivery performance
               with absolute adherence to deadlines and knowledge and application
               of the current regulations, standards and test procedures. The
@@ -75,14 +82,6 @@
               decision-making and short response times to changing requirements
               fits our standards and work style.
             </p>
-            <div style="overflow:hidden">
-              <div style="float:left;width:500px;border:2px solid #f3f3f3;">
-                <img src="../assets/suppliers1.jpg" width="500px;">
-              </div>
-              <div style="float:right;width:500px;border:2px solid #f3f3f3;">
-                <img src="../assets/suppliers2.jpg" width="500px;">
-              </div>
-            </div>
           </div>
         </div>
       </div>

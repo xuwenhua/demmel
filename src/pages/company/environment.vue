@@ -74,7 +74,7 @@ export default {
   components: { NavBar },
   data() {
     return {
-      bannerImg: require('../../assets/banner/100_own_building_plant1.jpeg')
+      bannerImg: require('../../assets/banner/100_own_building_plant1.jpg')
     }
   },
 }

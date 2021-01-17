@@ -23,60 +23,60 @@
       <div class="page-content">
         <div class="sub-wrapper">
           <div class="sub-info">
-            <ul>
-              <li style="width: 629px;">
+            <div class="ul">
+              <p>
                 <span class="title">2020</span
-                >Over 300 metal parts for automotive industry and other applications in supply to Europe, North America and China.
-              </li>
-              <li>
+                >Over 300 metal parts for automotive industry and other apppcations in supply to Europe, North America and China.
+              </p>
+              <p>
                 <span class="title">2018</span
-                >3800㎡ new factory building was completed and put into operation.
-              </li>
-              <li>
+                >3800㎡ new factory building was completed and put into operation.
+              </p>
+              <p>
                 <span class="title">2017</span
-                >IATF 16949 certified by Bureau Veritas and being renewed ever since.
-              </li>
-              <li style="width: 629px;">
+                >IATF 16949 certified by Bureau Veritas and being renewed ever since.
+              </p>
+              <p>
                 <span class="title">2015</span
-                >First emblem was supplied to VW, brought the company into Tier 1 supplier.
-              </li>
-              <li style="width: 624px;">
+                >First emblem was supplied to VW, brought the company into Tier 1 supplier.
+              </p>
+              <p>
                 <span class="title">2014</span
-                >Passed ISO14001 Environmental Management System certification and being renewed ever since.
-              </li>
-              <li>
+                >Passed ISO14001 Environmental Management System certification and being renewed ever since.
+              </p>
+              <p>
                 <span class="title">2013</span
-                >Entry Sills introduced into the company
-              </li>
-              <li>
+                >Entry Sills introduced into the company
+              </p>
+              <p>
                 <span class="title">2010</span
-                >Membrane switch assembly fully transferred from Demmel AG to DMCC.
-              </li>
-              <li>
+                >Membrane switch assembly fully transferred from Demmel AG to DMCC.
+              </p>
+              <p>
                 <span class="title">2009</span
-                >Metal Keyboard assembly introduced into the company.
-              </li>
-              <li style="width: 629px;">
+                >Metal Keyboard assembly introduced into the company.
+              </p>
+              <p>
                 <span class="title">2008</span
-                >The company was taken over 100% by Demmel Group, Germany and changed name into DMCC.
-              </li>
-              <li>
+                >The company was taken over 100% by Demmel Group, Germany and changed name into DMCC.
+              </p>
+              <p>
                 <span class="title">2008</span
-                >TS 16949 certified by Bureau Veritas and being renewed ever since.
-              </li>
-              <li style="width: 633px;">
+                >TS 16949 certified by Bureau Veritas and being renewed ever since.
+              </p>
+              <p>
                 <span class="title">2006</span
-                >First metal part for automotive industry was nominated by BOS, Germany.
-              </li>
-              <li>
+                >First metal part for automotive industry was nominated by BOS, Germany.
+              </p>
+              <p>
                 <span class="title">2001</span
-                > The company was 100% taken over by Matino AG, Germany.
-              </li>
-              <li style="width: 629px;">
+                > The company was 100% taken over by Matino AG, Germany.
+              </p>
+              <p>
                 <span class="title">1997</span
-                >The company was first founded as Nanjing Excellent by a Taiwanese investor, a metal part supplier for colour picture tube makers.
-              </li>
-            </ul>
+                >The company was first founded as Nanjing Excellent by a Taiwanese investor, a metal part supplier for colour picture tube makers.
+              </p>
+            </div>
           </div>
           <div class="sub-pic">
             <img src="../../assets/company.jpg" />
@@ -99,7 +99,7 @@ export default {
   components: { NavBar },
   data() {
     return {
-      bannerImg: require('../../assets/banner/100_own_building_plant1.jpeg'),
+      bannerImg: require('../../assets/banner/100_own_building_plant1.jpg'),
     }
   },
 }
@@ -170,16 +170,12 @@ export default {
           p {
             line-height: 24px;
           }
-          ul {
-            li {
+          .ul {
+            p {
               display: block;
-              line-height: 35px;
-              width: 600px;
-              white-space: normal;
-              word-break: keep-all;
-              word-wrap: break-word;
-              text-align: justify;
-              text-justify: inter-ideograph;
+              line-height: 25px;
+              width: 650px;
+              word-break:keep-all;
               .title {
                 color: #00789e;
                 padding-right: 10px;
