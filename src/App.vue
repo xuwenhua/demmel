@@ -64,6 +64,15 @@ body {
       overflow: hidden;
       align-items: center;
       justify-content: center;
+      img {
+        &.ab {
+          position: absolute;
+          left: 50%;
+          margin-left: -250px;
+          top: 50%;
+          margin-top: -160px;
+        }
+      }
     }
   }
   .swiper-button-prev {

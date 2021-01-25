@@ -46,7 +46,6 @@
                 <div class="remark-title">
                   With us, your metal part is in safe hands.
                 </div>
-                <p>Material: Carbon steel, Stainless steel, Aluminium...</p>
               </div>
             </div>
             <div class="img">
@@ -61,7 +60,6 @@
                 <div class="remark-title">
                   With us, your metal part is in safe hands.
                 </div>
-                <p>Material: Carbon steel, Stainless steel, Aluminium...</p>
               </div>
             </div>
             <div class="img">
@@ -74,9 +72,6 @@
             <div class="sub-category-wrapper">
               <div class="remark">
                 <div class="remark-title">With us, your metal part is in safe hands.</div>
-                <p>
-                  Material: Stainless steel...
-                </p>
               </div>
             </div>
             <div class="img">
@@ -198,7 +193,7 @@ export default {
             width: 120px;
             color: #00789e;
             text-align: center;
-            top: 70%;
+            top: 50%;
             left: 50%;
             margin-left: -60px;
             cursor: pointer;

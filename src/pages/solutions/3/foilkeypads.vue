@@ -39,8 +39,8 @@
               <img :src="item.url" />
             </div>
           </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <!-- <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div> -->
         </div>
       </div>
     </div>
@@ -58,9 +58,6 @@ export default {
     return {
       bannerImg: require('../../../assets/banner/tastatur-2.jpeg'),
       bannerList: [
-        {
-          url: require('../../../assets/p_1_2.jpg')
-        },
         {
           url: require('../../../assets/p_1_3.jpg')
         },
@@ -82,7 +79,6 @@ export default {
       prevButton: '.swiper-button-prev',
       slidesPerView: 4,
       spaceBetween: 30,
-      loop: true
     })
   }
 }

@@ -7,7 +7,7 @@
           v-for="(item, index) in bannerList"
           :key="index"
         >
-          <img :src="item.url" />
+          <img :src="item.url" style="width: 100%;height: auto;"/>
           <!-- <div class="left-title">
             <div class="big-title">YOU SEE</div>
             <div class="small-title">{{item.leftTitle}}</div>

@@ -43,10 +43,6 @@
                 <div class="remark-title">
                   Office-level comfort, but vandal-proof.
                 </div>
-                <p>
-                  You will find our tactile metal keypads (in aluminium or
-                  stainless steel) for cash and non-cash...
-                </p>
               </div>
             </div>
             <div class="img">
@@ -63,10 +59,6 @@
                 <div class="remark-title">
                   Low-cost flat keypads designed to your specifications.
                 </div>
-                <p>
-                  Drawing on our many years of experience in mechanics, screen
-                  printing and assembly...
-                </p>
               </div>
             </div>
             <div class="img">
@@ -192,7 +184,7 @@ export default {
             width: 120px;
             color: #fff;
             text-align: center;
-            top: 70%;
+            top: 50%;
             left: 50%;
             margin-left: -60px;
             cursor: pointer;

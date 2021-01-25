@@ -93,7 +93,7 @@ export default {
     position: relative;
     background-color: #fff;
     .page-title {
-      width: 1080px;
+      width: 1160px;
       margin: 0 auto;
       padding-top: 40px;
       display: flex;
@@ -111,7 +111,7 @@ export default {
       }
     }
     .page-content {
-      width: 1090px;
+      width: 1160px;
       margin: 0 auto;
       padding-top: 30px;
       .sub-title {
@@ -123,8 +123,8 @@ export default {
         .sub-info {
           p {
             line-height: 24px;
-              word-wrap: break-word;
-              word-break: normal;
+            word-wrap: break-word;
+            word-break: normal;
           }
           ul {
             li {
@@ -147,6 +147,7 @@ export default {
           justify-content: space-between;
           img {
             width: 260px;
+            height: 417px;
           }
         }
       }

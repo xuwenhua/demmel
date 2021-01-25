@@ -41,7 +41,7 @@
               forward to communicating with you.
             </p>
             <div style="overflow:hidden;">
-              <div style="float: left;width: 620px;">
+              <div style="float: left;width: 680px;">
                 <p style="margin-top: 0;">Our general range of requirement includes:</p>
                 <p>
                   <b style="color: #00789e">Raw material:</b> Carbon steel (CRS &
@@ -64,7 +64,7 @@
                   protective materials
                 </p>
               </div>
-              <div style="float:left;margin-left:80px;width:320px;">
+              <div style="float:left;margin-left:40px;width:320px;">
                 <img src="../assets/suppliers-img.jpg" width="320">
               </div>
             </div>
@@ -100,7 +100,7 @@ export default {
   name: 'Solutions',
   components: { NavBar },
   data() {
-    return { bannerImg: require('../assets/banner/100_fot_contract.jpeg') }
+    return { bannerImg: require('../assets/banner/100_fot_contract.jpg') }
   },
 }
 </script>

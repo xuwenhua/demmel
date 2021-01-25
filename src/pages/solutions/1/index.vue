@@ -39,10 +39,6 @@
             <div class="sub-category-wrapper">
               <div class="remark">
                 <div class="remark-title">DEMMEL - WE CREATE IDENTITY</div>
-                <p>
-                  We constantly further develop our varnishing systems and
-                  processes such as plastic back-injection...
-                </p>
               </div>
             </div>
             <div class="img">
@@ -55,10 +51,6 @@
             <div class="sub-category-wrapper">
               <div class="remark">
                 <div class="remark-title">DEMMEL - WE CREATE IDENTITY</div>
-                <p>
-                  Our entry sills open up exciting design options for you in
-                  terms of function and surface finish...
-                </p>
               </div>
             </div>
             <div class="img">
@@ -186,7 +178,7 @@ export default {
             width: 120px;
             color: #fff;
             text-align: center;
-            top: 70%;
+            top: 50%;
             left: 50%;
             margin-left: -60px;
             cursor: pointer;

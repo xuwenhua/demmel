@@ -25,6 +25,7 @@
             </p>
             <p><b style="color: #00789e">Tel:</b> +86 25 85802378</p>
             <p><b style="color: #00789e">Fax:</b> +86 25 85801159</p>
+            <p><b style="color: #00789e">Email:</b> marketing@demmel.cn</p>
             <a href="http://www.demmel.cn">www.demmel.cn</a>
           </div>
           <div class="sub-pic">

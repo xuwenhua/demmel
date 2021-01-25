@@ -43,7 +43,7 @@
               v-for="(item, index) in bannerList"
               :key="index"
             >
-              <img :src="item.url" />
+              <img :src="item.url" class="ab" />
             </div>
           </div>
           <div class="swiper-button-prev"></div>
@@ -94,7 +94,6 @@ export default {
       prevButton: '.swiper-button-prev',
       slidesPerView: 4,
       spaceBetween: 30,
-      loop: true
     })
   }
 }

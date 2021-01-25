@@ -47,11 +47,11 @@
               v-for="(item, index) in bannerList"
               :key="index"
             >
-              <img :src="item.url" />
+              <img :src="item.url" class="ab" />
             </div>
           </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <!-- <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div> -->
         </div>
       </div>
     </div>
@@ -80,9 +80,6 @@ export default {
         {
           url: require('../../../assets/p_2_3.jpg')
         },
-        {
-          url: require('../../../assets/p_2_6.jpg')
-        },
       ],
     }
   },
@@ -91,8 +88,7 @@ export default {
       nextButton: '.swiper-button-next',
       prevButton: '.swiper-button-prev',
       slidesPerView: 4,
-      spaceBetween: 30,
-      loop: true
+      spaceBetween: 30
     })
   }
 }

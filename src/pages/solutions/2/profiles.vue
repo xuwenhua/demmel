@@ -44,8 +44,8 @@
               <img :src="item.url" />
             </div>
           </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <!-- <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div> -->
         </div>
       </div>
     </div>
@@ -68,10 +68,10 @@ export default {
           url: require('../../../assets/p_3_6.jpg')
         },
         {
-          url: require('../../../assets/p_3_7.jpg')
+          url: require('../../../assets/p_3_8.jpg')
         },
         {
-          url: require('../../../assets/p_3_8.jpg')
+          url: require('../../../assets/p_3_7.jpg')
         },
         {
           url: require('../../../assets/p_2_17.jpg')
@@ -85,7 +85,6 @@ export default {
       prevButton: '.swiper-button-prev',
       slidesPerView: 4,
       spaceBetween: 30,
-      loop: true
     })
   }
 }
