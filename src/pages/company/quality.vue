@@ -43,8 +43,8 @@
                 The tools of APQP/PPAP/FMEA/SPC/MSA are continuously used to meet customers' special requirement.
               </p>
             </div>
-            <div style="float:right;width:310px;">
-              <img src="../../assets/quality.jpg" style="width: 310px;">
+            <div style="float:right;width:310px;padding-right:2px;">
+              <img src="../../assets/quality.jpg" style="width: 310px;border:1px solid #f3f3f3;">
             </div>
           </div>
           <div style="overflow:hidden;">
@@ -81,7 +81,7 @@ export default {
   components: { NavBar },
   data() {
     return {
-      bannerImg: require('../../assets/banner/100_own_building_plant1.jpg')
+      bannerImg: require('../../assets/banner/100_own_building_plant2.jpg')
     }
   },
 }

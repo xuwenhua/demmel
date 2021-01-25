@@ -19,16 +19,16 @@
         <div class="sub-wrapper">
           <div class="sub-info">
             <p>
-              <b style="color:#00789e">Personal</b>, for human contact is the basis for every business relation, not only for internal DMCC but also for all external relations.
+              <b style="color:#00789e">Personal</b> in internal Demmel CN and external relations
             </p>
             <p>
-              <b style="color:#00789e">Commitment</b>, for proving the best and constant  performance, not only in goods but also in service.
+              <b style="color:#00789e">Trustworthy</b> in goods and services by providing best and constant  performance
             </p>
             <p>
-              <b style="color:#00789e">Excellence</b>, for surpassing customers' expectations and always being open to their needs and further improvement.
+              <b style="color:#00789e">Superior</b> in being open to customers' needs and surpassing their expectations
             </p>
             <p>
-              <b style="color:#00789e">Visionary</b>, for setting high business and environmental standards, granting a global support to our customers and helping to visualise their ideas.
+              <b style="color:#00789e">Visionary</b> in setting high business and environmental standards to help visualising customers' ideas
             </p>
           </div>
           <div class="sub-pic">
@@ -55,7 +55,7 @@ export default {
   components: { NavBar },
   data() {
     return {
-      bannerImg: require('../../assets/banner/100_own_building_plant1.jpg')
+      bannerImg: require('../../assets/banner/100_own_building_plant2.jpg')
     }
   },
 }
@@ -146,8 +146,9 @@ export default {
           display: flex;
           justify-content: space-between;
           img {
-            width: 260px;
-            height: 417px;
+            width: 210px;
+            height: 337px;
+            margin: 0 30px;
           }
         }
       }

@@ -3,8 +3,10 @@
     <div class="nav-bar-wrapper">
       <NavBar />
     </div>
-    <div class="banner-wrapper" :style="{backgroundImage:'url('+bannerImg+')'}">
-    </div>
+    <div
+      class="banner-wrapper"
+      :style="{ backgroundImage: 'url(' + bannerImg + ')' }"
+    ></div>
     <div class="main-wrapper">
       <div class="page-title">
         <div class="title">Automotive Identity</div>
@@ -29,34 +31,48 @@
           </p>
           <p>
             Ask us for any individual solution you may have in mind. Within the
-            Demmel Group, we have decades worth of expertise in Metal,
-            Electronics, Printing, and Design
+            Demmel Group, we have decades of worthy expertise in Metal,
+            Electronics, Printing, and Design.
           </p>
         </div>
         <div class="category-wrapper">
           <div class="item">
-            <div class="title">EMBLEMS</div>
+            <div class="title" @click="handleUrl('/solutions/1/emblems')">
+              EMBLEMS
+            </div>
             <div class="sub-category-wrapper">
               <div class="remark">
-                <div class="remark-title">DEMMEL - WE CREATE IDENTITY</div>
+                <div
+                  class="remark-title"
+                  @click="handleUrl('/solutions/1/emblems')"
+                >
+                  DEMMEL - WE CREATE IDENTITY
+                </div>
               </div>
             </div>
             <div class="img">
               <img src="../../../assets/dist/products/1_index_1.jpg" />
             </div>
-            <div class="btn" @click="handleUrl('/solutions/1/emblems')">READ MORE</div>
+            <!-- <div class="btn" @click="handleUrl('/solutions/1/emblems')">READ MORE</div> -->
           </div>
           <div class="item">
-            <div class="title">ENZTRY SILLS</div>
+            <div class="title" @click="handleUrl('/solutions/1/entrysills')">
+              ENZTRY SILLS
+            </div>
             <div class="sub-category-wrapper">
               <div class="remark">
-                <div class="remark-title">DEMMEL - WE CREATE IDENTITY</div>
+                <div
+                  class="remark-title"
+                  @click="handleUrl('/solutions/1/entrysills')"
+                >
+                  DEMMEL - WE CREATE IDENTITY
+                </div>
               </div>
             </div>
             <div class="img">
               <img src="../../../assets/dist/products/1_index_2.jpg" />
             </div>
-            <div class="btn" @click="handleUrl('/solutions/1/entrysills')">READ MORE</div>
+            <!-- <div class="btn" @click="handleUrl('/solutions/1/entrysills')">READ MORE</div> -->
           </div>
         </div>
       </div>
@@ -76,7 +92,7 @@ export default {
   components: { NavBar },
   data() {
     return {
-      bannerImg: require('../../../assets/banner/100_fot_bmw_sw.jpeg')
+      bannerImg: require('../../../assets/banner/100_fot_bmw_sw.jpeg'),
     }
   },
   methods: {
@@ -197,6 +213,7 @@ export default {
                 .remark-title {
                   color: #00789e;
                   font-size: 14px;
+                  cursor: pointer;
                 }
               }
             }

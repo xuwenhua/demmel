@@ -100,7 +100,7 @@ export default {
     background-repeat: no-repeat !important;
     background-position-y: 48% !important;
     background-blend-mode: soft-light;
-    background-color: #3c3c3b;
+    background-color: #006aa7;
   }
   .main-wrapper {
     min-height: 362px;

@@ -271,7 +271,7 @@ export default {
       cursor: pointer;
       position: relative;
       .title {
-        width: 150px;
+        width: 130px;
         text-align: center;
         cursor: pointer;
       }
@@ -399,7 +399,7 @@ export default {
     height: 100px;
     position: relative;
     overflow: hidden;
-    width: 247px;
+    width: 120px;
     text-align: right;
     .lang {
       width: 45px;

@@ -9,7 +9,9 @@
     <div class="main-wrapper">
       <div class="category-wrapper">
         <div class="item">
-          <div class="title">AUTOMOTIVE</div>
+          <div class="title" @click="handleUrl('/solutions/1/index')">
+            AUTOMOTIVE
+          </div>
           <div class="sub-category-wrapper">
             <div class="sub" @click="handleUrl('/solutions/1/emblems')">
               EMBLEMS
@@ -21,12 +23,14 @@
           <div class="img">
             <img src="../assets/dist/item1.jpg" />
           </div>
-          <div class="btn" @click="handleUrl('/solutions/1/index')">
+          <!-- <div class="btn" @click="handleUrl('/solutions/1/index')">
             READ MORE
-          </div>
+          </div> -->
         </div>
         <div class="item">
-          <div class="title">METAL PARTS</div>
+          <div class="title" @click="handleUrl('/solutions/2/index')">
+            METAL PARTS
+          </div>
           <div class="sub-category-wrapper">
             <div class="sub" @click="handleUrl('/solutions/2/brackets')">
               BRACKETS
@@ -41,16 +45,16 @@
           <div class="img">
             <img src="../assets/dist/item3.jpg" />
           </div>
-          <div
+          <!-- <div
             class="btn"
             style="color: #00789e"
             @click="handleUrl('/solutions/2/index')"
           >
             READ MORE
-          </div>
+          </div> -->
         </div>
         <div class="item">
-          <div class="title">HMI</div>
+          <div class="title" @click="handleUrl('/solutions/3/index')">HMI</div>
           <div class="sub-category-wrapper">
             <div class="sub" @click="handleUrl('/solutions/3/vasmetalkeypads')">
               VAS METAL KEYPADS
@@ -62,26 +66,26 @@
           <div class="img">
             <img src="../assets/dist/item2.jpg" />
           </div>
-          <div class="btn" @click="handleUrl('/solutions/3/index')">
+          <!-- <div class="btn" @click="handleUrl('/solutions/3/index')">
             READ MORE
-          </div>
+          </div> -->
         </div>
       </div>
       <div class="index-about">
         <div class="title">ABOUT DEMMEL CN</div>
         <div class="txt">
-          Demmel CN is a subsidiary of Demmel Group, Germany. It develops,
-          manufactures and supplies high end decorative parts, metal parts and
-          input devices. Our customers include the automotive industry as well
-          as its suppliers, the mechanical engineering industry and electrical
-          appliance manufacturers.
+          Demmel CN is a subsidiary of Demmel Group, headquarters in Germany. It
+          develops, manufactures and supplies high end decorative parts, metal
+          parts and input devices. Its customers include the automotive industry
+          as well as its suppliers, the mechanical engineering industry and
+          electrical appliance manufacturers.
         </div>
         <div class="txt">
-          Continuous innovation is the key to creating unique characteristics
-          that set a company apart from its competitors and give it the edge.
-          With a long standing experience and supply competence, we are ready to
-          deliver to the world and to satisfy our customers up to their
-          expectation.
+          Continuous innovation is the key to creating unique characteristic
+          that sets a company aparting from its competitors and giving it an
+          edge. With long standing experience and supply competence, Demmel is
+          ready to deliver customized products to the world and satisfy its
+          customers up to their expectation.
         </div>
       </div>
     </div>

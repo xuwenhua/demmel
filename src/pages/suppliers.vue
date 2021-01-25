@@ -3,8 +3,10 @@
     <div class="nav-bar-wrapper">
       <NavBar />
     </div>
-    <div class="banner-wrapper" :style="{backgroundImage:'url('+bannerImg+')'}">
-    </div>
+    <div
+      class="banner-wrapper"
+      :style="{ backgroundImage: 'url(' + bannerImg + ')' }"
+    ></div>
     <div class="main-wrapper">
       <div class="page-title">
         <div class="title">Suppliers</div>
@@ -30,26 +32,28 @@
               We are a reliable, high-performance partner for our customers.
               Naturally, we also expect these values from our suppliers. We are
               willing to help suppliers to make continuous improvement. We are
-              committed to develop together with the best suppliers. Only with
-              exceptional performance we will be jointly able to rise to the
-              challenges of the future.
+              committed to developing together with the best suppliers. Only
+              with exceptional performance will we be jointly able to rise to
+              the challenges of the future.
             </p>
             <p>
-              We want to inform existing and future delivery partners about our
+              We want to inform existing and future delivery partners of our
               procurement processes and give you the opportunity to communicate
               directly with us in an uncomplicated and fast manner. We look
               forward to communicating with you.
             </p>
-            <div style="overflow:hidden;">
-              <div style="float: left;width: 680px;">
-                <p style="margin-top: 0;">Our general range of requirement includes:</p>
-                <p>
-                  <b style="color: #00789e">Raw material:</b> Carbon steel (CRS &
-                  HRS), Stainless steel, Aluminium and Granules
+            <div style="overflow: hidden">
+              <div style="float: left; width: 680px">
+                <p style="margin-top: 0">
+                  Our general range of procurement includes:
                 </p>
                 <p>
-                  <b style="color: #00789e">Purchased part:</b> Welding nut, Screw
-                  nut, Rivet nut, circuit board, Rubber and PCB
+                  <b style="color: #00789e">Raw material:</b> Carbon steel (CRS
+                  & HRS), Stainless steel, Aluminium and Granules
+                </p>
+                <p>
+                  <b style="color: #00789e">Purchased part:</b> Welding nut,
+                  Screw nut, Rivet nut, circuit board, Rubber and PCB
                 </p>
                 <p>
                   <b style="color: #00789e">Surface treatment:</b> KTL, Zinc,
@@ -59,28 +63,28 @@
                   <b style="color: #00789e">Tooling:</b> metal tooling, plastic
                   tooling, inspection gauge, fixture
                 </p>
-                <p style="margin-bottom: 0;">
+                <p style="margin-bottom: 0">
                   <b style="color: #00789e">Others:</b> Packaging materials,
                   protective materials
                 </p>
               </div>
-              <div style="float:left;margin-left:40px;width:320px;">
-                <img src="../assets/suppliers-img.jpg" width="320">
+              <div style="float: left; margin-left: 40px; width: 320px">
+                <img src="../assets/suppliers-img.jpg" width="320" />
               </div>
             </div>
             <p>
-              We expect proven competence in their business area and a reliable
-              quality from our partner. The certification according to ISO 9001,
-              IATF16949, ISO14001, and also EMAS etc. is ideal. However, we also
-              accept comparable own quality assurance programs.
+              We expect proven competence in their (its?) business area and a
+              reliable quality from our partner with the requirement of being
+              certified in ISO 9001, IATF16949, ISO14001, and EMAS etc.,
+              alternatively, comparable quality assurance programs.
             </p>
-            <p style="margin-bottom: 80px;">
-              Other important evaluation criteria are best delivery performance
-              with absolute adherence to deadlines and knowledge and application
-              of the current regulations, standards and test procedures. The
-              ability to communicate flexibly with short distances, quick
-              decision-making and short response times to changing requirements
-              fits our standards and work style.
+            <p style="margin-bottom: 80px">
+              Other important evaluation criteria include but not limited to
+              best delivery performance with absolute adherence to deadlines and
+              knowledge, application of the current regulations, standards and
+              test procedures. The ability to communicate flexibly with short
+              distances, quick decision-making and short response times to
+              changing requirements fits our standards and work style.
             </p>
           </div>
         </div>

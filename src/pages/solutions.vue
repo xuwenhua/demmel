@@ -25,43 +25,66 @@
             kitchen appliances, ATMs, touch solutions in mechanical engineering,
             decorative parts and functional parts for the automotive industry.
             Every day, millions of people come into contact with our products
-            and rely on their quality and precision.
+            and rely on our quality.
           </p>
         </div>
         <div class="category-wrapper">
           <div class="item">
-            <div class="title">AUTOMOTIVE</div>
+            <div class="title" @click="handleUrl('/solutions/1/index')">
+              AUTOMOTIVE
+            </div>
             <div class="sub-category-wrapper">
-              <div class="sub" @click="handleUrl('/solutions/1/emblems')">EMBLEMS</div>
-              <div class="sub" @click="handleUrl('/solutions/1/entrysills')">ENTRY SILLS</div>
+              <div class="sub" @click="handleUrl('/solutions/1/emblems')">
+                EMBLEMS
+              </div>
+              <div class="sub" @click="handleUrl('/solutions/1/entrysills')">
+                ENTRY SILLS
+              </div>
             </div>
             <div class="img">
               <img src="../assets/dist/item1.jpg" />
             </div>
-            <div class="btn" @click="handleUrl('/solutions/1/index')">READ MORE</div>
+            <!-- <div class="btn" @click="handleUrl('/solutions/1/index')">READ MORE</div> -->
           </div>
           <div class="item">
-            <div class="title">METAL PARTS</div>
+            <div class="title" @click="handleUrl('/solutions/2/index')">
+              METAL PARTS
+            </div>
             <div class="sub-category-wrapper">
-              <div class="sub" @click="handleUrl('/solutions/2/brackets')">BRACKETS</div>
-              <div class="sub" @click="handleUrl('/solutions/2/profiles')">PROFILES</div>
-              <div class="sub" @click="handleUrl('/solutions/2/burnerframe')">BURNER FRAME</div>
+              <div class="sub" @click="handleUrl('/solutions/2/brackets')">
+                BRACKETS
+              </div>
+              <div class="sub" @click="handleUrl('/solutions/2/profiles')">
+                PROFILES
+              </div>
+              <div class="sub" @click="handleUrl('/solutions/2/burnerframe')">
+                BURNER FRAME
+              </div>
             </div>
             <div class="img">
               <img src="../assets/dist/item3.jpg" />
             </div>
-            <div class="btn" style="color:#00789e;" @click="handleUrl('/solutions/2/index')">READ MORE</div>
+            <!-- <div class="btn" style="color:#00789e;" @click="handleUrl('/solutions/2/index')">READ MORE</div> -->
           </div>
           <div class="item">
-            <div class="title">HMI</div>
+            <div class="title" @click="handleUrl('/solutions/3/index')">
+              HMI
+            </div>
             <div class="sub-category-wrapper">
-              <div class="sub" @click="handleUrl('/solutions/3/vasmetalkeypads')">VAS METAL KEYPADS</div>
-              <div class="sub" @click="handleUrl('/solutions/3/foilkeypads')">FOIL KEYPADS</div>
+              <div
+                class="sub"
+                @click="handleUrl('/solutions/3/vasmetalkeypads')"
+              >
+                VAS METAL KEYPADS
+              </div>
+              <div class="sub" @click="handleUrl('/solutions/3/foilkeypads')">
+                FOIL KEYPADS
+              </div>
             </div>
             <div class="img">
               <img src="../assets/dist/item2.jpg" />
             </div>
-            <div class="btn" @click="handleUrl('/solutions/3/index')">READ MORE</div>
+            <!-- <div class="btn" @click="handleUrl('/solutions/3/index')">READ MORE</div> -->
           </div>
         </div>
       </div>
@@ -88,7 +111,7 @@ export default {
         this.$router.push(url)
       }
     },
-  }
+  },
 }
 </script>
 

@@ -37,10 +37,10 @@
         </div>
         <div class="category-wrapper">
           <div class="item">
-            <div class="title">VAS METAL KEYPADS</div>
+            <div class="title" @click="handleUrl('/solutions/3/vasmetalkeypads')">VAS METAL KEYPADS</div>
             <div class="sub-category-wrapper">
               <div class="remark">
-                <div class="remark-title">
+                <div class="remark-title" @click="handleUrl('/solutions/3/vasmetalkeypads')">
                   Office-level comfort, but vandal-proof.
                 </div>
               </div>
@@ -48,15 +48,15 @@
             <div class="img">
               <img src="../../../assets/dist/products/3_index_1.jpg" />
             </div>
-            <div class="btn" @click="handleUrl('/solutions/3/vasmetalkeypads')">
+            <!-- <div class="btn" @click="handleUrl('/solutions/3/vasmetalkeypads')">
               READ MORE
-            </div>
+            </div> -->
           </div>
           <div class="item">
-            <div class="title">FOIL KEYPADS</div>
+            <div class="title" @click="handleUrl('/solutions/3/foilkeypads')">FOIL KEYPADS</div>
             <div class="sub-category-wrapper">
               <div class="remark">
-                <div class="remark-title">
+                <div class="remark-title" @click="handleUrl('/solutions/3/foilkeypads')">
                   Low-cost flat keypads designed to your specifications.
                 </div>
               </div>
@@ -64,13 +64,13 @@
             <div class="img">
               <img src="../../../assets/dist/products/3_index_2.jpg" />
             </div>
-            <div
+            <!-- <div
               class="btn"
               style="color: #00789e"
               @click="handleUrl('/solutions/3/foilkeypads')"
             >
               READ MORE
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
@@ -203,6 +203,7 @@ export default {
                 .remark-title {
                   color: #00789e;
                   font-size: 14px;
+                  cursor: pointer;
                 }
               }
             }

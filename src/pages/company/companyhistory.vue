@@ -26,11 +26,11 @@
             <div class="ul">
               <p>
                 <span class="title">2020</span
-                >Over 300 metal parts for automotive industry and other apppcations in supply to Europe, North America and China.
+                >Supplied to Europe, North America and China with over 300 metal parts in automotive industry and other applications.
               </p>
               <p>
                 <span class="title">2018</span
-                >3800㎡ new factory building was completed and put into operation.
+                >Expanded 3800㎡ new factory building.
               </p>
               <p>
                 <span class="title">2017</span
@@ -38,27 +38,27 @@
               </p>
               <p>
                 <span class="title">2015</span
-                >First emblem was supplied to VW, brought the company into Tier 1 supplier.
+                >Being SVW Tier 1 with first emblem.
               </p>
               <p>
                 <span class="title">2014</span
-                >Passed ISO14001 Environmental Management System certification and being renewed ever since.
+                >ISO-14001 certified and being renewed ever since.
               </p>
               <p>
                 <span class="title">2013</span
-                >Entry Sills introduced into the company
+                >Brought in entry Sills.
               </p>
               <p>
                 <span class="title">2010</span
-                >Membrane switch assembly fully transferred from Demmel AG to DMCC.
+                >Brought in membrane switch assembly.
               </p>
               <p>
                 <span class="title">2009</span
-                >Metal Keyboard assembly introduced into the company.
+                >Brought in keyboard assembly.
               </p>
               <p>
                 <span class="title">2008</span
-                >The company was taken over 100% by Demmel Group, Germany and changed name into DMCC.
+                >100% taken over by Demmel Group in Germany.
               </p>
               <p>
                 <span class="title">2008</span
@@ -66,15 +66,15 @@
               </p>
               <p>
                 <span class="title">2006</span
-                >First metal part for automotive industry was nominated by BOS, Germany.
+                >Nominated by BOS Germany for first metal part in car industry.
               </p>
               <p>
                 <span class="title">2001</span
-                > The company was 100% taken over by Matino AG, Germany.
+                >100% taken over by Matino AG Germany.
               </p>
               <p>
                 <span class="title">1997</span
-                >The company was first founded as Nanjing Excellent by a Taiwanese investor, a metal part supplier for colour picture tube makers.
+                >First founded as Nanjing Excellent by a Taiwanese investor, a metal part supplier for colour picture tube makers.
               </p>
             </div>
           </div>
@@ -99,7 +99,7 @@ export default {
   components: { NavBar },
   data() {
     return {
-      bannerImg: require('../../assets/banner/100_own_building_plant1.jpg'),
+      bannerImg: require('../../assets/banner/100_own_building_plant2.jpg'),
     }
   },
 }

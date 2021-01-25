@@ -3,8 +3,10 @@
     <div class="nav-bar-wrapper">
       <NavBar />
     </div>
-    <div class="banner-wrapper" :style="{backgroundImage:'url('+bannerImg+')'}">
-    </div>
+    <div
+      class="banner-wrapper"
+      :style="{ backgroundImage: 'url(' + bannerImg + ')' }"
+    ></div>
     <div class="main-wrapper">
       <div class="page-title">
         <div class="title">Emblem</div>
@@ -40,7 +42,7 @@
             solutions, we create new standards in implementing your wishes.
           </p>
         </div>
-        <div class="product-list">
+        <div class="product-list" style="width: 802px; margin: 0 auto">
           <div class="swiper-wrapper">
             <div
               class="swiper-slide"
@@ -72,13 +74,13 @@ export default {
       bannerImg: require('../../../assets/banner/100_own_emblem_bmw_3.jpeg'),
       bannerList: [
         {
-          url: require('../../../assets/p_2_1.jpg')
+          url: require('../../../assets/p_2_1.jpg'),
         },
         {
-          url: require('../../../assets/p_2_2.jpg')
+          url: require('../../../assets/p_2_2.jpg'),
         },
         {
-          url: require('../../../assets/p_2_3.jpg')
+          url: require('../../../assets/p_2_3.jpg'),
         },
       ],
     }
@@ -87,10 +89,10 @@ export default {
     Swiper('.product-list', {
       nextButton: '.swiper-button-next',
       prevButton: '.swiper-button-prev',
-      slidesPerView: 4,
-      spaceBetween: 30
+      slidesPerView: 3,
+      spaceBetween: 30,
     })
-  }
+  },
 }
 </script>
 

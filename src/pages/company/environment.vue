@@ -31,14 +31,14 @@
               certificates at the bottom of the website.
             </p>
             <p>
-              Here’s how our Environment Management System ensures we meet our
+              Here's how our Environment Management System ensures us to meet our
               environmental protection obligations:
             </p>
             <p>
               Monitoring, analysis and evaluation of our environmental impact
             </p>
             <p>
-              Consideration of environmental impacts in the Demmel CN plants
+              Consideration of environmental impacts on Demmel CN plants
             </p>
             <p>
               Compliance with local and national legal requirements in the
@@ -74,7 +74,7 @@ export default {
   components: { NavBar },
   data() {
     return {
-      bannerImg: require('../../assets/banner/100_own_building_plant1.jpg')
+      bannerImg: require('../../assets/banner/100_own_building_plant2.jpg')
     }
   },
 }

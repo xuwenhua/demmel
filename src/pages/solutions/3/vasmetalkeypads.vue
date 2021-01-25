@@ -30,7 +30,7 @@
             certification organization.
           </p>
         </div>
-        <div class="product-list">
+        <div class="product-list" style="width: 802px; margin: 0 auto">
           <div class="swiper-wrapper">
             <div
               class="swiper-slide"
@@ -77,7 +77,7 @@ export default {
     Swiper('.product-list', {
       nextButton: '.swiper-button-next',
       prevButton: '.swiper-button-prev',
-      slidesPerView: 4,
+      slidesPerView: 3,
       spaceBetween: 30,
     })
   }
