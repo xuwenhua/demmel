@@ -73,7 +73,7 @@
               </div>
             </div>
             <p>
-              We expect proven competence in their (its?) business area and a
+              We expect proven competence in their business area and a
               reliable quality from our partner with the requirement of being
               certified in ISO 9001, IATF16949, ISO14001, and EMAS etc.,
               alternatively, comparable quality assurance programs.

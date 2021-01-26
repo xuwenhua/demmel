@@ -57,7 +57,7 @@
           </div>
           <div class="item">
             <div class="title" @click="handleUrl('/solutions/1/entrysills')">
-              ENZTRY SILLS
+              ENTRY SILLS
             </div>
             <div class="sub-category-wrapper">
               <div class="remark">
