@@ -101,9 +101,8 @@ export default {
     height: 300px;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-position-y: 48% !important;
+    background-position-y: -50px !important;
     background-blend-mode: soft-light;
-    background-color: #3c3c3b;
   }
   .main-wrapper {
     min-height: 362px;

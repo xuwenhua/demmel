@@ -3,7 +3,10 @@
     <div class="nav-bar-wrapper">
       <NavBar />
     </div>
-    <div class="banner-wrapper" :style="{backgroundImage:'url('+bannerImg+')'}"></div>
+    <div
+      class="banner-wrapper"
+      :style="{ backgroundImage: 'url(' + bannerImg + ')' }"
+    ></div>
     <div class="main-wrapper">
       <div class="page-title">
         <div class="title">Quality</div>
@@ -17,57 +20,64 @@
       </div>
       <div class="page-content">
         <div class="sub-wrapper">
-          <div style="overflow:hidden">
-            <div class="sub-info" style="float:left;width: 700px;">
+          <div style="overflow: hidden">
+            <div class="sub-info" style="float: left; width: 700px">
               <p>
-                Our quality control lab is equipped with necessary measuring devices to fulfill full dimension measurement.
+                We have effective IATF16949:2016 and quality tools e.g. APQP,
+                FMEA, PPAP, MSA, SPC etc.. Besides, with decades of experience
+                in on-site audits by different customers, we finally earn their
+                recognition and cooperation.
               </p>
               <p>
-                Quick inspection jigs are widely designed and used to improve  inspection efficiency and
-                measure of precision.
+                We have one professional quality team, beyond that, necessary
+                inspection and test equipment. We also establish measurement
+                center to monitor manufacture process, moveover, performance
+                laboratory to verify product performance to meet customers’
+                special requirements, aiming at providing customers with
+                satisfactory products and services.
               </p>
               <p>
-                Setting up first piece and last piece system to verify  process stability, to meet the <br/>requirement of traceability.
+                We uphold the concept of "lean management, quality comes first,
+                continuous improvement, accomplish customer", invariably take
+                quality as the foundation, and mobilize all employees to
+                participate in quality management. Our products have been
+                continuously sold to Europe, America and domestic well-known
+                customers, achieving strong competitiveness in the market over
+                the years.
               </p>
               <p>
-                System Audit, Process Audit, Product Audit in periodically base to keep continuously <br/>improvement on quality system.
-              </p>
-              <p>
-                Our test lab is equipped with the necessary test devices to monitor and verify the customer <br/>requirement to be fully satisfied.
-              </p>
-              <p>
-                Follow up the product quality performance actively and timely from
-                production line to customer.
-              </p>
-              <p>
-                The tools of APQP/PPAP/FMEA/SPC/MSA are continuously used to meet customers' special requirement.
+                We will adhere to the path of sustainable development,
+                continuous pursuit of product progress and quality excellence.
               </p>
             </div>
-            <div style="float:right;width:310px;padding-right:2px;">
-              <img src="../../assets/quality.jpg" style="width: 310px;border:1px solid #f3f3f3;">
+            <div style="float: right; width: 310px; padding-right: 2px">
+              <img
+                src="../../assets/quality.jpg"
+                style="width: 310px; border: 1px solid #f3f3f3"
+              />
             </div>
           </div>
-          <div style="overflow:hidden;">
-            <div class="sub-pic" style="width:51%;float:left;">
-              <div style="padding-bottom: 10px;overflow:hidden;">
-                <img src="../../assets/quality1.jpg" />
+          <div style="overflow: hidden">
+            <div class="sub-pic" style="width: 51%; float: left;padding-right: 0;">
+              <div style="padding-bottom: 10px;padding-right:6px; overflow: hidden">
+                <img src="../../assets/quality1.jpg" style="margin-bottom:8px;" />
                 <img src="../../assets/quality2.jpg" />
               </div>
-              <div style="padding-bottom: 10px;overflow:hidden;">
-                <img src="../../assets/quality3.jpg" />
+              <div style="padding-bottom: 10px;padding-right:6px; overflow: hidden">
+                <img src="../../assets/quality3.jpg" style="margin-bottom:8px;" />
                 <img src="../../assets/quality6.jpg" />
               </div>
             </div>
-            <div class="sub-pic" style="width:46%;margin-left: 10px;float:left;">
-              <img src="../../assets/quality4.jpg" />
+            <div
+              class="sub-pic"
+              style="width: 46%; margin-left: 10px; float: left"
+            >
               <img src="../../assets/quality5.jpg" />
+              <img src="../../assets/quality4.jpg" />
             </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer-wrapper">
-      <Footer />
     </div>
   </div>
 </template>
@@ -81,7 +91,7 @@ export default {
   components: { NavBar },
   data() {
     return {
-      bannerImg: require('../../assets/banner/100_own_building_plant2.jpg')
+      bannerImg: require('../../assets/banner/100_own_building_plant2.jpg'),
     }
   },
 }
@@ -108,9 +118,8 @@ export default {
     height: 300px;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-position-y: 48% !important;
+    background-position-y: -50px !important;
     background-blend-mode: soft-light;
-    background-color: #3c3c3b;
   }
   .main-wrapper {
     min-height: 362px;
@@ -149,8 +158,12 @@ export default {
         .sub-info {
           p {
             line-height: 24px;
-              word-wrap: break-word;
-              word-break: normal;
+            word-wrap: break-word;
+            word-break: normal;
+            text-align:justify;
+            text-justify:inter-ideograph;
+            word-wrap:break-word;
+            word-break:break-all;
           }
           ul {
             li {
@@ -169,9 +182,13 @@ export default {
         .sub-pic {
           overflow: hidden;
           margin-bottom: 10px;
+          padding-right: 6px;
+          padding-bottom: 6px;
           img {
             float: left;
             width: 49%;
+            -moz-box-shadow: 2px 2px 5px #666; /* 老的 Firefox */
+            box-shadow: 2px 2px 5px #666;
             &:last-child {
               float: right;
             }

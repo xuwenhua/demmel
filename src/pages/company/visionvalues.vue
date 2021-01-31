@@ -17,31 +17,34 @@
       </div>
       <div class="page-content">
         <div class="sub-wrapper">
-          <div class="sub-info">
-            <p>
-              <b style="color:#00789e">Personal</b> in internal Demmel CN and external relations
-            </p>
-            <p>
-              <b style="color:#00789e">Trustworthy</b> in goods and services by providing best and constant  performance
-            </p>
-            <p>
-              <b style="color:#00789e">Superior</b> in being open to customers' needs and surpassing their expectations
-            </p>
-            <p>
-              <b style="color:#00789e">Visionary</b> in setting high business and environmental standards to help visualising customers' ideas
-            </p>
-          </div>
           <div class="sub-pic">
-            <img src="../../assets/visionvalues1.jpg" />
-            <img src="../../assets/visionvalues2.jpg" />
-            <img src="../../assets/visionvalues3.jpg" />
-            <img src="../../assets/visionvalues4.jpg" />
+            <div class="item">
+              <img src="../../assets/visionvalues1.jpg" />
+              <p style="font-size:14px;">
+                <b style="color:#00789e">Personal</b> in internal Demmel CN and external relations
+              </p>
+            </div>
+            <div class="item">
+              <img src="../../assets/visionvalues2.jpg" />
+              <p style="font-size:14px;">
+                <b style="color:#00789e">Trustworthy</b> in goods and services by providing best and constant  performance
+              </p>
+            </div>
+            <div class="item">
+              <img src="../../assets/visionvalues3.jpg" />
+              <p style="font-size:14px;">
+                <b style="color:#00789e">Superior</b> in being open to customers' needs and surpassing their expectations
+              </p>
+            </div>
+            <div class="item">
+              <img src="../../assets/visionvalues4.jpg" />
+              <p style="font-size:14px;">
+                <b style="color:#00789e">Visionary</b> in setting high business and environmental standards to help visualising customers' ideas
+              </p>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-    <div class="footer-wrapper">
-      <Footer />
     </div>
   </div>
 </template>
@@ -82,9 +85,8 @@ export default {
     height: 300px;
     background-size: cover !important;
     background-repeat: no-repeat !important;
-    background-position-y: 48% !important;
+    background-position-y: -50px !important;
     background-blend-mode: soft-light;
-    background-color: #3c3c3b;
   }
   .main-wrapper {
     min-height: 362px;
@@ -114,6 +116,7 @@ export default {
       width: 1160px;
       margin: 0 auto;
       padding-top: 30px;
+      padding-bottom: 100px;
       .sub-title {
         color: #00789e;
         font-size: 18px;
@@ -145,9 +148,17 @@ export default {
           margin-bottom: 10px;
           display: flex;
           justify-content: space-between;
+          flex-wrap: wrap;
           img {
-            width: 210px;
-            height: 337px;
+            width: 230px;
+            border: 4px solid #f3f3f3;
+            display: block;
+            margin: 0 auto;
+            -moz-box-shadow: 2px 2px 5px #666; /* 老的 Firefox */
+            box-shadow: 2px 2px 5px #666;
+          }
+          .item {
+            width: 230px;
             margin: 0 30px;
           }
         }
