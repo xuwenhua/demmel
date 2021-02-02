@@ -3,9 +3,7 @@
     <div class="nav-bar-wrapper">
       <NavBar />
     </div>
-    <div class="banner-wrapper">
-      <img src="../../../assets/banner/banner-child-4.jpg" />
-    </div>
+    <div class="banner-wrapper" :style="{backgroundImage:'url('+bannerImg+')'}"></div>
     <div class="main-wrapper">
       <div class="page-title">
         <div class="title">Burner Frame</div>
@@ -76,6 +74,7 @@ export default {
           url: require('../../../assets/p_2_15.jpg')
         },
       ],
+      bannerImg: require('../../../assets/banner/banner-child-4.jpg')
     }
   },
   mounted() {
@@ -110,6 +109,11 @@ export default {
     display: flex;
     justify-content: center;
     height: 300px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position-y: 48% !important;
+    background-blend-mode: soft-light;
+    background-color: #3c3c3b;
   }
   .main-wrapper {
     min-height: 362px;

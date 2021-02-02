@@ -66,6 +66,9 @@
       <div class="lang">
         <img src="../assets/en.png" />
       </div>
+      <div class="lang">
+        <img src="../assets/zh.png" />
+      </div>
       <!-- <div class="search-wrapper">
         <input type="text" class="keyword" placeholder="Search" />
         <div class="btn">
@@ -403,13 +406,14 @@ export default {
     text-align: right;
     .lang {
       width: 45px;
-      height: 30px;
+      height: 23px;
+      float: left;
+      margin-right: 10px;
+      margin-top: 38px;
+      cursor: pointer;
       img {
-        width: 45px;
-        height: 30px;
-        position: absolute;
-        top: 50%;
-        margin-top: -15px;
+        width: 35px;
+        display: block;
       }
     }
     .search-wrapper {

@@ -4,7 +4,7 @@
       <NavBar />
     </div>
     <div class="banner-wrapper">
-      <img src="../../../assets/banner/banner-child-4.jpg" />
+      <img src="../../../assets/banner/banner-child-4-1.jpg" />
     </div>
     <div class="main-wrapper">
       <div class="page-title">

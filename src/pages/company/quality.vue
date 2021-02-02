@@ -58,13 +58,34 @@
             </div>
           </div>
           <div style="overflow: hidden">
-            <div class="sub-pic" style="width: 51%; float: left;padding-right: 0;">
-              <div style="padding-bottom: 10px;padding-right:6px; overflow: hidden">
-                <img src="../../assets/quality1.jpg" style="margin-bottom:8px;" />
+            <div
+              class="sub-pic"
+              style="width: 51%; float: left; padding-right: 0"
+            >
+              <div
+                style="
+                  padding-bottom: 10px;
+                  padding-right: 6px;
+                  overflow: hidden;
+                "
+              >
+                <img
+                  src="../../assets/quality1.jpg"
+                  style="margin-bottom: 8px"
+                />
                 <img src="../../assets/quality2.jpg" />
               </div>
-              <div style="padding-bottom: 10px;padding-right:6px; overflow: hidden">
-                <img src="../../assets/quality3.jpg" style="margin-bottom:8px;" />
+              <div
+                style="
+                  padding-bottom: 10px;
+                  padding-right: 6px;
+                  overflow: hidden;
+                "
+              >
+                <img
+                  src="../../assets/quality3.jpg"
+                  style="margin-bottom: 8px"
+                />
                 <img src="../../assets/quality6.jpg" />
               </div>
             </div>
@@ -157,13 +178,10 @@ export default {
         overflow: hidden;
         .sub-info {
           p {
+            text-align: justify;
             line-height: 24px;
             word-wrap: break-word;
             word-break: normal;
-            text-align:justify;
-            text-justify:inter-ideograph;
-            word-wrap:break-word;
-            word-break:break-all;
           }
           ul {
             li {
